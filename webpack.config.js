@@ -88,7 +88,6 @@ module.exports = {
                         loader: 'file-loader',
                         options: {
                             limit: 8192,
-                            mimetype: 'image/png',
                             name: 'images/[name].[ext]',
                         },
                     },
