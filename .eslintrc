@@ -25,6 +25,7 @@
 			"error",
 			4
 		],
-		"react/prop-types": 0 // disable for now
+		"react/prop-types": 0, // disable for now
+		"no-unused-vars": "warn"
 	}
 }

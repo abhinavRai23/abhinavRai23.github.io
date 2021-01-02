@@ -3,7 +3,11 @@ import React from 'react';
 
 const About = ({
     about: {
-        name, about, address, phone_number, email_id,
+        name, about, address, phone_number, email_id, socials: {
+            linkedin,
+            github,
+            twitter,
+        } = {},
     } = {},
 }) => (
     <section className="resume-section" id="about">
@@ -16,13 +20,19 @@ const About = ({
                 {' · (+91) '}
                 {phone_number}
                 {' · '}
-                <a href="mailto:name@email.com">{email_id}</a>
+                <a href={`mailto:${email_id}`}>{email_id}</a>
             </div>
             <p className="lead mb-5">{about}</p>
             <div className="social-icons">
-                <a className="social-icon" href="#"><i className="fab fa-linkedin-in" /></a>
-                <a className="social-icon" href="#"><i className="fab fa-github" /></a>
-                <a className="social-icon" href="#"><i className="fab fa-twitter" /></a>
+                <a className="social-icon" href={linkedin}>
+                    <i className="fab fa-linkedin-in" />
+                </a>
+                <a className="social-icon" href={github}>
+                    <i className="fab fa-github" />
+                </a>
+                <a className="social-icon" href={twitter}>
+                    <i className="fab fa-twitter" />
+                </a>
             </div>
         </div>
     </section>
