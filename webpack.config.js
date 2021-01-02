@@ -3,6 +3,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const TerserWebpackPlugin = require('terser-webpack-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 const path = require('path');
 
 const devMode = process.env.APP_ENV === 'local';
@@ -30,7 +31,7 @@ if (!devMode) {
 module.exports = {
     entry: { index: path.resolve(__dirname, 'src', 'index.js') },
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'public'),
         filename: '[name].[hash].js',
     },
     module: {
@@ -159,6 +160,12 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             template: path.resolve(__dirname, 'src', 'index.html'),
+        }),
+        new CopyPlugin({
+            patterns: [
+                { from: './src/assets', to: './' },
+                { from: './src/images', to: './images' },
+            ],
         }),
         ...otherPlugIns,
     ],

@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: 
+
+User-agent: rogerbot
+Disallow: /
+
+User-agent: dotbot
+Disallow: /
+sitemap: http://abhinavrai23.github.io/sitemap.xml
