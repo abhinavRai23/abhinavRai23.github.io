@@ -17,6 +17,7 @@ const Navigation = ({ list, name }) => (
                         className="img-fluid img-profile rounded-circle mx-auto mb-2"
                         src={Profile}
                         alt="profic-pic"
+                        loading="lazy"
                     />
                 </span>
             )}
