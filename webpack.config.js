@@ -31,7 +31,7 @@ if (!devMode) {
 module.exports = {
     entry: { index: path.resolve(__dirname, 'src', 'index.js') },
     output: {
-        path: path.resolve(__dirname, 'build'),
+        path: path.resolve(__dirname, 'dist'),
         filename: '[name].[hash].js',
     },
     module: {
