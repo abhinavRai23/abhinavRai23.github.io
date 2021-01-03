@@ -2,9 +2,11 @@
 
 Created **React** based basic portfolio. For template used bootstrap based free template. 
 
+<center>
 <a href="https://abhinavrai23.github.io">
-	<img src="./src/images/preview.png" />
+	<img src="./src/images/preview.png" width="480" />
 </a>
+</center>
 <br>
 <br>
 
