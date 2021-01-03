@@ -3,7 +3,7 @@
 Created **React** based basic portfolio. For template used bootstrap based free template. 
 
 <a href="https://abhinavrai23.github.io">
-	<img src="./src/images/preview.webp" height="250" />
+	<img src="./src/images/preview.png" />
 </a>
 <br>
 <br>
