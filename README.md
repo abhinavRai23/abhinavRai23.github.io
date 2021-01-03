@@ -1,10 +1,14 @@
-![portfolio-preview](https://abhinavrai23.github.io/images/preview.webp =250x)
-
 ## My Portfolio
 
 Created **React** based basic portfolio. For template used bootstrap based free template. 
 
-#### If you want to use same template:- 
+<a href="https://abhinavrai23.github.io">
+	<img src="./src/images/preview.webp" height="250" />
+</a>
+<br>
+<br>
+
+### If you want to use same template:- 
 * Fork the repo
 * change image from `./src/images/profile.webp`
 * update `data.json` from `./src/data.json`
