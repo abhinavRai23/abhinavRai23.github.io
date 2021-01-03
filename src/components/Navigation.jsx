@@ -1,6 +1,9 @@
 import React from 'react';
 import Profile from '../images/profile.png';
 
+// eslint-disable-next-line no-undef
+const isMob = () => (window.innerWidth < 600);
+
 const Navigation = ({ list, name }) => (
     <nav
         className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
@@ -8,13 +11,15 @@ const Navigation = ({ list, name }) => (
     >
         <a className="navbar-brand js-scroll-trigger" href="#page-top">
             <span className="d-block d-lg-none">{name}</span>
-            <span className="d-none d-lg-block">
-                <img
-                    className="img-fluid img-profile rounded-circle mx-auto mb-2"
-                    src={Profile}
-                    alt="profic-pic"
-                />
-            </span>
+            {!isMob() && (
+                <span className="d-none d-lg-block">
+                    <img
+                        className="img-fluid img-profile rounded-circle mx-auto mb-2"
+                        src={Profile}
+                        alt="profic-pic"
+                    />
+                </span>
+            )}
         </a>
         <button
             className="navbar-toggler"
