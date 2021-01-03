@@ -1,4 +1,4 @@
-![portfolio-preview](https://abhinavrai23.github.io/images/preview.png)
+![portfolio-preview](https://abhinavrai23.github.io/images/preview.webp =250x)
 
 ## My Portfolio
 
