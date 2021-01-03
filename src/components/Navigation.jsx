@@ -1,5 +1,5 @@
 import React from 'react';
-import Profile from '../images/profile.jpg';
+import Profile from '../images/profile.webp';
 
 const Navigation = ({ list, name }) => (
     <nav
