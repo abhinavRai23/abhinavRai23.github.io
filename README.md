@@ -1,4 +1,4 @@
-![portfolio-preview](https://abhinavrai23.github.io/images/preview.webp)
+![portfolio-preview](https://abhinavrai23.github.io/images/preview.png)
 
 ## My Portfolio
 
