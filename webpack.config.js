@@ -95,6 +95,18 @@ module.exports = {
                 ],
             },
             {
+                test: /\.(pdf)$/,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            limit: 8192,
+                            name: '[name].[ext]',
+                        },
+                    },
+                ],
+            },
+            {
                 test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
                 use: [
                     {

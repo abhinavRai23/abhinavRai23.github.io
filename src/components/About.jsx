@@ -34,6 +34,15 @@ const About = ({
                     <i className="fab fa-twitter" />
                 </a>
             </div>
+            <div style={{ textAlign: 'center', marginTop: '60px' }}>
+                <a
+                    href="/Abhinav-Rai(FrontEnd-Developer).pdf"
+                    className="btn border-primary text-primary"
+                >
+                    Download Resume
+                    <i className="fa fa-download" style={{ marginLeft: '5px' }} />
+                </a>
+            </div>
         </div>
     </section>
 );

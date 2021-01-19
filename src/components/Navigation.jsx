@@ -18,6 +18,8 @@ const Navigation = ({ list, name }) => (
                         src={Profile}
                         alt="profic-pic"
                         loading="lazy"
+                        width="156"
+                        height="156"
                     />
                 </span>
             )}
