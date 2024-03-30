@@ -1,142 +1,142 @@
 {
-	"about": {
-		"name": "Abhinav Rai",
-		"phone_number": "8743960158",
-		"email_id": "abhinav.rai1994@gmail.com",
-		"address": "Noida, India",
-		"about": "Hi, I am a software engineer with 3.5 years of experience. I have expertise in FrontEnd development.",
-		"socials": {
-			"github": "https://github.com/abhinavRai23",
-			"twitter": "https://twitter.com/abhinav_rai1994",
-			"linkedin": "https://linkedin.com/in/abhinavrai23/"
-		}
-	},
-	"experience": [
-		{
-			"designation": "Software Engineer",
-			"organization": "Sendinblue",
-			"duration": "Sept. 2019 - Present",
-			"description": "I am working here as a FrontEnd Developer. My job is to create pixel perfect UI as per design, integrate related APIs, create whole architecture for react/redux based app. Optimize website to improve performance. Debug project error and js warnings. Guide junior developers."
-		},
-		{
-			"designation": "Software Engineer",
-			"organization": "Afinoz",
-			"duration": "July 2017 - Sept. 2019",
-			"description": "Worked as a FrontEnd developer where most of the work done using ReactJs and MaterializeCSS. My job was to handle the whole FrontEnd from UI to API integration. During my two years of tenure worked on 4 projects:- India website, US website, CRM, and CMS. Created all of them single-handedly from scratch including project setUp to interface design and API integrations. Also experimented with many things to improve SEO and performance of the web-app."
-		},
-		{
-			"designation": "Web developer (Intern)",
-			"organization": "SysBiome Technologies",
-			"duration": "July 2016 - Aug. 2016",
-			"description": "Worked on Laravel based Web development project named Samarpan where I have to develop the whole UI using Materialize Bootstrap."
-		},
-		{
-			"designation": "Web developer (Intern)",
-			"organization": "Adroha",
-			"duration": "Mar. 2016 - Apr. 2016",
-			"description": "Worked as an Intern. Integrated Stripe Payment Gateway."
-		}
-	],
-	"education": [
-		{
-			"name": "Ajay Kumar Garg Engineering College, (AKTU | UPTU)",
-			"degree": "B.Tech",
-			"specilization": "Computer Science and Engineering",
-			"duration": "2017"
-		},
-		{
-			"name": "St. Meera's Inter College",
-			"degree": "Intermediate",
-			"specilization": "PCM and Computers",
-			"duration": "2012"
-		}
-	],
-	"skills": {
-		"workflows": [
-			"Mobile-First, Responsive Design",
-			"Cross Browser Testing & Debugging",
-			"Cross Functional Teams",
-			"Agile Development & Scrum"
-		]
-	},
-	"projects": [
-		{
-			"title": "Billing flow module",
-			"period": "Sept. 2019 - Current",
-			"description": "Worked on a complete user journey from plan selection to payment. The main focus was to create reusable components, optimization. Created a mono-repo from common code which can be easily used by other projects too.",
-			"link": "https://app.sendinblue.com/billing/"
-		},
-		{
-			"title": "Campaign checker",
-			"period": "Dec. 2020",
-			"description": "Created a React-based pre-check email campaign tool to avoid errors in the campaign. It was two days competition where we have to finalize the idea and execute it. This tool provides facilities like spell-check, personalization check, broken-link check, missing alt tag of images, available credits check."
-		},
-		{
-			"title": "React17-webpack5-boilerplate",
-			"period": "Dec. 2020",
-			"description": "React17, webpack5, SASS, Eslint and many things to kick start a new project",
-			"link": "https://github.com/abhinavRai23/react-webpack5-boilerplate"
-		},
-		{
-			"title": "AFINOZ website",
-			"period": "July 2017 - Aug. 2019",
-			"description": "Develop FrontEnd of Website using ReactJs, optimize website performance, API Integration. Create Custom templates for the same type of pages.",
-			"link": "http://afinoz.com/"
-		},
-		{
-			"title": "CRM-Afinoz",
-			"period": "Mar. 2018 - July 2018",
-			"description": "Develop FrontEnd of CRM using ReactJs/Redux, ChartJs and MaterializeCSS. Create customizable components which can be used in multiple containers, integrate APIs.",
-			"link": "https://crm.afinoz.com/"
-		},
-		{
-			"title": "CMS-Afinoz",
-			"period": "July 2018 - Aug. 2019",
-			"description": "Develop CMS using rich text-editor, ReactJs and MaterializeCSS. Integrate related APIs.",
-			"link": "https://cms.afinoz.com/"
-		},
-		{
-			"title": "E-Petition",
-			"period": "Aug. 2016 - Aug. 2016",
-			"description": "It's a Web project to sign online petitions. Learned code-igniter and developer this portal in one week. Technologies used Php-CodeIgniter, MySql, HTML, CSS, Material Design Lite, JavaScript, Jquery, Ajax.",
-			"link": "https://github.com/abhinavRai23/EPetition"
-		},
-		{
-			"title": "Samarpan",
-			"period": "June 2016 - June 2016",
-			"description": "It's a Laravel based web development project for using Senior citizens experience in Industries. My job is to create FrontEnd of the whole portal using Materialize-Bootstrap.",
-			"link": "https://github.com/abhinavRai23/Samarpan"
-		},
-		{
-			"title": "Question Paper Portal",
-			"period": "Sept. 2015 - Sept. 2015",
-			"description": "It is a Modal Question Paper Upload Portal where faculty will upload their question with answers and students can see those questions online or download them. Technologies is using HTML/CSS, JavaScript, Jquery, PHP/MySql, BootStrap, CK-Editor.",
-			"link": "https://github.com/abhinavRai23/QP-Portal"
-		}
-	],
-	"awards": [
-		{
-			"title": "1st prize in Sibthon2020 (Hackathon)",
-			"date": "Dec 2020",
-			"organiser": "Sendinblue",
-			"details": "Created a React-based pre-check email campaign tool to avoid errors in the campaign. It was two days competition where we have to finalize the idea and execute it. This tool provides facilities like spell-check, personalization check, broken-link check, missing alt tag of images, available credits check."
-		},
-		{
-			"title": "Won 2nd Prize in CodeWiz",
-			"date": "April 2017",
-			"organiser": "AKGEC",
-			"details": "It's an Intra college competitive programming event where I won 2nd Prize."
-		},
-		{
-			"title": "Won 2nd prize in Web-Development",
-			"date": "March 2015",
-			"organiser": "DDUC",
-			"details": "Won 2nd prize in Web-Development in DDUC (Deen Dayal Upadhyaya College)."
-		},
-		{
-			"title": "Appreciation Letter",
-			"Date": "Aug 2016",
-			"details": "Worked in State level project to generate 'Modal Question Papers' for which received an appreciation letter from Director of College."
-		}
-	]
+  "about": {
+    "name": "Abhinav Rai",
+    "phone_number": "8743960158",
+    "email_id": "abhinav.rai1994@gmail.com",
+    "address": "Lucknow, India",
+    "about": "Hi, I am a Senior Software Engineer with 6.5 years of experience. I have expertise in FrontEnd development.",
+    "socials": {
+      "github": "https://github.com/abhinavRai23",
+      "twitter": "https://twitter.com/abhinav_rai1994",
+      "linkedin": "https://linkedin.com/in/abhinavrai23/"
+    }
+  },
+  "experience": [
+    {
+      "designation": "Senior Software Engineer",
+      "organization": "Sendinblue",
+      "duration": "Sept. 2019 - Present",
+      "description": "Led frontend development for Pricing V4, launching CRM, Conversation, and Phone pricing verticals, fostering business growth. Implemented innovative solutions for unpaid invoices, improving cash flow and financial stability. Swiftly adapted payment flow post RBI changes, ensuring compliance and smooth operations. Monitored performance, reducing sentry errors, enhancing web vitals, and elevating the lighthouse score from below 50 to 85+ for all URLs. Implemented unit test cases, maintaining code coverage at 75%. Mentored junior developers, contributing to global projects like React boilerplate, Microfrontend architecture, Fe-common components, and Design systems."
+    },
+    {
+      "designation": "Software Engineer",
+      "organization": "Afinoz",
+      "duration": "July 2017 - Sept. 2019",
+      "description": "Worked as a FrontEnd developer where most of the work done using ReactJs and MaterializeCSS. My job was to handle the whole FrontEnd from UI to API integration. During my two years of tenure worked on 4 projects:- India website, US website, CRM, and CMS. Created all of them single-handedly from scratch including project setUp to interface design and API integrations. Also experimented with many things to improve SEO and performance of the web-app."
+    },
+    {
+      "designation": "Web developer (Intern)",
+      "organization": "SysBiome Technologies",
+      "duration": "July 2016 - Aug. 2016",
+      "description": "Worked on Laravel based Web development project named Samarpan where I have to develop the whole UI using Materialize Bootstrap."
+    },
+    {
+      "designation": "Web developer (Intern)",
+      "organization": "Adroha",
+      "duration": "Mar. 2016 - Apr. 2016",
+      "description": "Worked as an Intern. Integrated Stripe Payment Gateway."
+    }
+  ],
+  "education": [
+    {
+      "name": "Ajay Kumar Garg Engineering College, (AKTU | UPTU)",
+      "degree": "B.Tech",
+      "specilization": "Computer Science and Engineering",
+      "duration": "2017"
+    },
+    {
+      "name": "St. Meera's Inter College",
+      "degree": "Intermediate",
+      "specilization": "PCM and Computers",
+      "duration": "2012"
+    }
+  ],
+  "skills": {
+    "workflows": [
+      "Mobile-First, Responsive Design",
+      "Cross Browser Testing & Debugging",
+      "Cross Functional Teams",
+      "Agile Development & Scrum"
+    ]
+  },
+  "projects": [
+    {
+      "title": "Billing flow module",
+      "period": "Sept. 2019 - Current",
+      "description": "Worked on a complete user journey from plan selection to payment. The main focus was to create reusable components, optimization. Created a mono-repo from common code which can be easily used by other projects too.",
+      "link": "https://app.sendinblue.com/billing/"
+    },
+    {
+      "title": "Campaign checker",
+      "period": "Dec. 2020",
+      "description": "Created a React-based pre-check email campaign tool to avoid errors in the campaign. It was two days competition where we have to finalize the idea and execute it. This tool provides facilities like spell-check, personalization check, broken-link check, missing alt tag of images, available credits check."
+    },
+    {
+      "title": "React17-webpack5-boilerplate",
+      "period": "Dec. 2020",
+      "description": "React17, webpack5, SASS, Eslint and many things to kick start a new project",
+      "link": "https://github.com/abhinavRai23/react-webpack5-boilerplate"
+    },
+    {
+      "title": "AFINOZ website",
+      "period": "July 2017 - Aug. 2019",
+      "description": "Develop FrontEnd of Website using ReactJs, optimize website performance, API Integration. Create Custom templates for the same type of pages.",
+      "link": "http://afinoz.com/"
+    },
+    {
+      "title": "CRM-Afinoz",
+      "period": "Mar. 2018 - July 2018",
+      "description": "Develop FrontEnd of CRM using ReactJs/Redux, ChartJs and MaterializeCSS. Create customizable components which can be used in multiple containers, integrate APIs.",
+      "link": "https://crm.afinoz.com/"
+    },
+    {
+      "title": "CMS-Afinoz",
+      "period": "July 2018 - Aug. 2019",
+      "description": "Develop CMS using rich text-editor, ReactJs and MaterializeCSS. Integrate related APIs.",
+      "link": "https://cms.afinoz.com/"
+    },
+    {
+      "title": "E-Petition",
+      "period": "Aug. 2016 - Aug. 2016",
+      "description": "It's a Web project to sign online petitions. Learned code-igniter and developer this portal in one week. Technologies used Php-CodeIgniter, MySql, HTML, CSS, Material Design Lite, JavaScript, Jquery, Ajax.",
+      "link": "https://github.com/abhinavRai23/EPetition"
+    },
+    {
+      "title": "Samarpan",
+      "period": "June 2016 - June 2016",
+      "description": "It's a Laravel based web development project for using Senior citizens experience in Industries. My job is to create FrontEnd of the whole portal using Materialize-Bootstrap.",
+      "link": "https://github.com/abhinavRai23/Samarpan"
+    },
+    {
+      "title": "Question Paper Portal",
+      "period": "Sept. 2015 - Sept. 2015",
+      "description": "It is a Modal Question Paper Upload Portal where faculty will upload their question with answers and students can see those questions online or download them. Technologies is using HTML/CSS, JavaScript, Jquery, PHP/MySql, BootStrap, CK-Editor.",
+      "link": "https://github.com/abhinavRai23/QP-Portal"
+    }
+  ],
+  "awards": [
+    {
+      "title": "1st prize in Sibthon2020 (Hackathon)",
+      "date": "Dec 2020",
+      "organiser": "Sendinblue",
+      "details": "Created a React-based pre-check email campaign tool to avoid errors in the campaign. It was two days competition where we have to finalize the idea and execute it. This tool provides facilities like spell-check, personalization check, broken-link check, missing alt tag of images, available credits check."
+    },
+    {
+      "title": "Won 2nd Prize in CodeWiz",
+      "date": "April 2017",
+      "organiser": "AKGEC",
+      "details": "It's an Intra college competitive programming event where I won 2nd Prize."
+    },
+    {
+      "title": "Won 2nd prize in Web-Development",
+      "date": "March 2015",
+      "organiser": "DDUC",
+      "details": "Won 2nd prize in Web-Development in DDUC (Deen Dayal Upadhyaya College)."
+    },
+    {
+      "title": "Appreciation Letter",
+      "Date": "Aug 2016",
+      "details": "Worked in State level project to generate 'Modal Question Papers' for which received an appreciation letter from Director of College."
+    }
+  ]
 }
