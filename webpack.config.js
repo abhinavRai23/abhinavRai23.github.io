@@ -1,34 +1,38 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-const TerserWebpackPlugin = require('terser-webpack-plugin');
-const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
-const CopyPlugin = require('copy-webpack-plugin');
-const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
+const TerserWebpackPlugin = require('terser-webpack-plugin')
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
+const ESLintPlugin = require('eslint-webpack-plugin')
 
-const devMode = process.env.APP_ENV === 'local';
+const CopyPlugin = require('copy-webpack-plugin')
+const path = require('path')
 
-const otherPlugIns = [];
+const devMode = process.env.APP_ENV || 'production'
+
+const otherPlugIns = []
 if (!devMode) {
-    otherPlugIns.push(new CleanWebpackPlugin());
-    otherPlugIns.push(new MiniCssExtractPlugin({
-        filename: devMode ? '[name].css' : '[name].[contenthash].css',
-        chunkFilename: devMode ? '[id].css' : '[id].[contenthash].css',
-    }));
+    otherPlugIns.push(new CleanWebpackPlugin())
+    otherPlugIns.push(
+        new MiniCssExtractPlugin({
+            filename: devMode ? '[name].css' : '[name].[contenthash].css',
+            chunkFilename: devMode ? '[id].css' : '[id].[contenthash].css',
+        })
+    )
     if (process.env.BUNDLE_ANALYZE) {
-    // eslint-disable-next-line global-require
-        const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
+        // eslint-disable-next-line global-require
+        const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
         otherPlugIns.push(
             new BundleAnalyzerPlugin({
                 analyzerMode: 'server',
                 generateStatsFile: true,
                 statsOptions: { source: false },
-            }),
-        );
+            })
+        )
     }
 }
-
 module.exports = {
+    mode: devMode,
     entry: { index: path.resolve(__dirname, 'src', 'index.js') },
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -56,12 +60,6 @@ module.exports = {
                                 ],
                                 '@babel/preset-react',
                             ],
-                        },
-                    },
-                    {
-                        loader: 'eslint-loader',
-                        options: {
-                            fix: true,
                         },
                     },
                 ],
@@ -166,7 +164,7 @@ module.exports = {
                     warnings: false,
                 },
             }),
-            new OptimizeCssAssetsPlugin(),
+            new CssMinimizerPlugin(),
         ],
     },
     plugins: [
@@ -179,6 +177,7 @@ module.exports = {
                 { from: './src/images', to: './images' },
             ],
         }),
+        new ESLintPlugin(),
         ...otherPlugIns,
     ],
-};
+}

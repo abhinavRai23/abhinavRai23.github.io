@@ -9,20 +9,22 @@ const Education = React.lazy(() => import('./components/Education'));
 const Skills = React.lazy(() => import('./components/Skills'));
 const Awards = React.lazy(() => import('./components/Awards'));
 
-const Spinner = () => (
-    <div
-        className="d-flex justify-content-center"
-        style={{
-            flexDirection: 'column',
-            alignItems: 'center',
-            height: '100vh',
-        }}
-    >
-        <div className="spinner-grow text-primary" role="status">
-            <span className="sr-only">Loading...</span>
+function Spinner() {
+    return (
+        <div
+            className="d-flex justify-content-center"
+            style={{
+                flexDirection: 'column',
+                alignItems: 'center',
+                height: '100vh',
+            }}
+        >
+            <div className="spinner-grow text-primary" role="status">
+                <span className="sr-only">Loading...</span>
+            </div>
         </div>
-    </div>
-);
+    );
+}
 
 function App() {
     const navigations = Object.keys(Data || {});
