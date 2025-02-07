@@ -1,0 +1,53 @@
+"use strict";
+(self["webpackChunkabhinavrai23_github_io"] = self["webpackChunkabhinavrai23_github_io"] || []).push([[793],{
+
+/***/ 793:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(540);
+
+function EducationBlock(_ref) {
+  let {
+    name,
+    degree,
+    duration,
+    specilization
+  } = _ref;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "d-flex flex-column flex-md-row justify-content-between mb-5"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "flex-grow-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
+    className: "mb-0"
+  }, name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "subheading mb-3"
+  }, degree), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, specilization)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "flex-shrink-0"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "text-primary"
+  }, duration)));
+}
+function Education(_ref2) {
+  let {
+    educations = []
+  } = _ref2;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
+    className: "resume-section",
+    id: "education"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "resume-section-content"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
+    className: "mb-5"
+  }, "Education"),
+  // eslint-disable-next-line react/jsx-props-no-spreading
+  educations.map(edu => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(EducationBlock, edu))));
+}
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Education);
+
+/***/ })
+
+}]);
