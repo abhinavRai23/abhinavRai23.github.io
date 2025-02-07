@@ -1,5 +1,5 @@
 /* eslint-disable camelcase */
-import React from 'react';
+import React from 'react'
 
 function About({
     about: {
@@ -50,7 +50,7 @@ function About({
                 </div>
                 <div style={{ textAlign: 'center', marginTop: '60px' }}>
                     <a
-                        href="/Abhinav-Rai(FrontEnd-Developer).pdf"
+                        href="/Abhinav-Rai(FrontEnd).pdf"
                         className="btn border-primary text-primary"
                     >
                         Download Resume
@@ -62,7 +62,7 @@ function About({
                 </div>
             </div>
         </section>
-    );
+    )
 }
 
-export default About;
+export default About
