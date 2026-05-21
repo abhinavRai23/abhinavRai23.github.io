@@ -8,9 +8,19 @@ function ExpBlock({
             <div className="flex-grow-1">
                 <h3 className="mb-0">{designation}</h3>
                 <div className="subheading mb-3">{organization}</div>
-                <p>
-                    {description}
-                </p>
+                {Array.isArray(description) ? (
+                    <ul style={{ paddingLeft: '20px', listStyleType: 'disc' }}>
+                        {description.map((bullet) => (
+                            <li key={bullet} className="mb-2">
+                                {bullet}
+                            </li>
+                        ))}
+                    </ul>
+                ) : (
+                    <p>
+                        {description}
+                    </p>
+                )}
             </div>
             <div className="flex-shrink-0"><span className="text-primary">{duration}</span></div>
         </div>

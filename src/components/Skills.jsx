@@ -2,6 +2,7 @@ import React from 'react';
 
 function Skills({
     skills: {
+        categories = [],
         workflows = [],
     } = {},
 }) {
@@ -21,11 +22,30 @@ function Skills({
                     <li className="list-inline-item"><i className="fab fa-npm" /></li>
                     <li className="list-inline-item"><i className="fab fa-git" /></li>
                 </ul>
+                {categories.length > 0 && (
+                    <>
+                        <div className="subheading mb-3">Core Expertise</div>
+                        <ul className="fa-ul mb-4">
+                            {categories.map((category) => (
+                                <li key={category.name} className="mb-2">
+                                    <span className="fa-li">
+                                        <i className="fas fa-cog text-primary" />
+                                    </span>
+                                    <strong>
+                                        {category.name}
+                                        {': '}
+                                    </strong>
+                                    {category.items.join(', ')}
+                                </li>
+                            ))}
+                        </ul>
+                    </>
+                )}
                 <div className="subheading mb-3">Workflow</div>
                 <ul className="fa-ul mb-0">
                     {
                         workflows.map((workflow) => (
-                            <li>
+                            <li key={workflow}>
                                 <span className="fa-li">
                                     <i className="fas fa-check" />
                                 </span>

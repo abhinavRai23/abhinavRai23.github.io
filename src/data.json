@@ -3,8 +3,8 @@
     "name": "Abhinav Rai",
     "phone_number": "8743960158",
     "email_id": "abhinav.rai1994@gmail.com",
-    "address": "Lucknow, India",
-    "about": "Hi, I am a Senior Software Engineer with 6.5 years of experience. I have expertise in FrontEnd development.",
+    "address": "Noida, India",
+    "about": "Hi, I am a Senior Software Engineer with 9+ years of experience building scalable, high-performance frontend systems. I have strong expertise in React-based architectures, micro-frontends, pricing platforms, and payment flows, with a proven track record of leading frontend initiatives, improving delivery velocity, and shipping business-critical features under tight timelines.",
     "socials": {
       "github": "https://github.com/abhinavRai23",
       "twitter": "https://twitter.com/abhinav_rai1994",
@@ -14,15 +14,40 @@
   "experience": [
     {
       "designation": "Senior Software Engineer",
-      "organization": "Sendinblue",
-      "duration": "Sept. 2019 - Present",
-      "description": "Led frontend development for Pricing V4, launching CRM, Conversation, and Phone pricing verticals, fostering business growth. Implemented innovative solutions for unpaid invoices, improving cash flow and financial stability. Swiftly adapted payment flow post RBI changes, ensuring compliance and smooth operations. Monitored performance, reducing sentry errors, enhancing web vitals, and elevating the lighthouse score from below 50 to 85+ for all URLs. Implemented unit test cases, maintaining code coverage at 75%. Mentored junior developers, contributing to global projects like React boilerplate, Microfrontend architecture, Fe-common components, and Design systems."
+      "organization": "Brevo (Formerly Sendinblue)",
+      "duration": "Nov 2021 - Present",
+      "description": [
+        "Led frontend development for Pricing V4 and V5, managing a team of 6 engineers and owning delivery of pricing and checkout flows.",
+        "Pricing V5: Migrated to a single-vertical, add-on–based pricing model, launching a new Pro plan (between Business and Enterprise) and a new sales package; delivered end-to-end in 6 months.",
+        "Integrated Adyen and Stripe payment gateways, enabling scalable, multi-country payment support.",
+        "Designed and scaled micro-frontend architecture using Webpack Module Federation, ensuring shared navigation and independent team ownership.",
+        "Improved Lighthouse scores from 50 to 90+, reduced bundle size by 60%, and improved FCP by 40% through lazy loading and code splitting.",
+        "Ensured production stability during Brevo rebranding, coordinating frontend theme changes and QA validation on the new domain."
+      ]
     },
     {
       "designation": "Software Engineer",
+      "organization": "Brevo (Formerly Sendinblue)",
+      "duration": "Sept 2019 - Dec 2021",
+      "description": [
+        "Developed end-to-end V2 pricing and checkout journeys, focusing on state management and API integration.",
+        "Decoupled pricing frontend from a Symphony-based monolith, creating a dedicated React repository with full frontend ownership.",
+        "Architected reusable shared UI bundles as libraries, reducing cross-team dependencies and release timelines.",
+        "Integrated PayPal and Direct Debit payment methods across pricing and checkout flows.",
+        "Optimized legacy React components, improving application responsiveness and maintainability."
+      ]
+    },
+    {
+      "designation": "Software Developer",
       "organization": "Afinoz",
       "duration": "July 2017 - Sept. 2019",
-      "description": "Worked as a FrontEnd developer where most of the work done using ReactJs and MaterializeCSS. My job was to handle the whole FrontEnd from UI to API integration. During my two years of tenure worked on 4 projects:- India website, US website, CRM, and CMS. Created all of them single-handedly from scratch including project setUp to interface design and API integrations. Also experimented with many things to improve SEO and performance of the web-app."
+      "description": [
+        "Built Afinoz’s main website using React and MaterializeCSS, reducing homepage load time from 9s to 0.8s.",
+        "Led development of Personal Loan, Business Loan, eligibility, application, blog, and bank pages.",
+        "Implemented SEO optimizations using dynamic JSON-LDs and Node.js scripts for content scraping and sitemap generation.",
+        "Developed an in-house CMS with a rich text editor for non-technical content management.",
+        "Built an internal CRM dashboard using Chart.js, Redux-Persist, and local storage caching."
+      ]
     },
     {
       "designation": "Web developer (Intern)",
@@ -41,8 +66,8 @@
     {
       "name": "Ajay Kumar Garg Engineering College, (AKTU | UPTU)",
       "degree": "B.Tech",
-      "specilization": "Computer Science and Engineering",
-      "duration": "2017"
+      "specilization": "Computer Science",
+      "duration": "2013 - 2017"
     },
     {
       "name": "St. Meera's Inter College",
@@ -52,6 +77,52 @@
     }
   ],
   "skills": {
+    "categories": [
+      {
+        "name": "Frontend",
+        "items": [
+          "React",
+          "JavaScript",
+          "TypeScript",
+          "HTML/CSS",
+          "LESS",
+          "SASS",
+          "Webpack",
+          "Micro Frontends",
+          "Redux"
+        ]
+      },
+      {
+        "name": "Testing",
+        "items": [
+          "Jest",
+          "React Testing Library"
+        ]
+      },
+      {
+        "name": "Platform & Tooling",
+        "items": [
+          "Git",
+          "CI/CD",
+          "Webpack Module Federation"
+        ]
+      },
+      {
+        "name": "Quality & Observability",
+        "items": [
+          "SonarCloud",
+          "Elastic APM"
+        ]
+      },
+      {
+        "name": "AI Productivity Tools",
+        "items": [
+          "GitHub Copilot",
+          "Cursor",
+          "ChatGPT (PR reviews, refactoring, test generation)"
+        ]
+      }
+    ],
     "workflows": [
       "Mobile-First, Responsive Design",
       "Cross Browser Testing & Debugging",
