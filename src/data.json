@@ -3,11 +3,11 @@
     "name": "Abhinav Rai",
     "phone_number": "8743960158",
     "email_id": "abhinav.rai1994@gmail.com",
-    "address": "Noida, India",
+    "address": "Lucknow, India",
     "about": "Hi, I am a Senior Software Engineer with 9+ years of experience building scalable, high-performance frontend systems. I have strong expertise in React-based architectures, micro-frontends, pricing platforms, and payment flows, with a proven track record of leading frontend initiatives, improving delivery velocity, and shipping business-critical features under tight timelines.",
     "socials": {
       "github": "https://github.com/abhinavRai23",
-      "twitter": "https://twitter.com/abhinav_rai1994",
+      "x": "https://twitter.com/abhinav_rai1994",
       "linkedin": "https://linkedin.com/in/abhinavrai23/"
     }
   },
@@ -16,6 +16,8 @@
       "designation": "Senior Software Engineer",
       "organization": "Brevo (Formerly Sendinblue)",
       "duration": "Nov 2021 - Present",
+      "logo": "/images/companies/brevo.png",
+      "skills": ["React", "Webpack Module Federation", "Adyen", "Stripe", "Micro Frontends", "Lighthouse", "Performance"],
       "description": [
         "Led frontend development for Pricing V4 and V5, managing a team of 6 engineers and owning delivery of pricing and checkout flows.",
         "Pricing V5: Migrated to a single-vertical, add-on–based pricing model, launching a new Pro plan (between Business and Enterprise) and a new sales package; delivered end-to-end in 6 months.",
@@ -29,6 +31,8 @@
       "designation": "Software Engineer",
       "organization": "Brevo (Formerly Sendinblue)",
       "duration": "Sept 2019 - Dec 2021",
+      "logo": "/images/companies/brevo.png",
+      "skills": ["React", "Redux", "PayPal", "Direct Debit", "Monolith Decoupling", "Shared UI Libraries"],
       "description": [
         "Developed end-to-end V2 pricing and checkout journeys, focusing on state management and API integration.",
         "Decoupled pricing frontend from a Symphony-based monolith, creating a dedicated React repository with full frontend ownership.",
@@ -41,6 +45,8 @@
       "designation": "Software Developer",
       "organization": "Afinoz",
       "duration": "July 2017 - Sept. 2019",
+      "logo": "/images/companies/afinoz.jpg",
+      "skills": ["React", "MaterializeCSS", "SEO Optimization", "Node.js", "Chart.js", "Redux"],
       "description": [
         "Built Afinoz’s main website using React and MaterializeCSS, reducing homepage load time from 9s to 0.8s.",
         "Led development of Personal Loan, Business Loan, eligibility, application, blog, and bank pages.",
@@ -53,27 +59,33 @@
       "designation": "Web developer (Intern)",
       "organization": "SysBiome Technologies",
       "duration": "July 2016 - Aug. 2016",
+      "logo": "",
+      "skills": ["Laravel", "PHP", "Materialize Bootstrap", "UI/UX"],
       "description": "Worked on Laravel based Web development project named Samarpan where I have to develop the whole UI using Materialize Bootstrap."
     },
     {
       "designation": "Web developer (Intern)",
       "organization": "Adroha",
       "duration": "Mar. 2016 - Apr. 2016",
+      "logo": "",
+      "skills": ["Stripe", "Payment Gateways", "PHP", "JavaScript"],
       "description": "Worked as an Intern. Integrated Stripe Payment Gateway."
     }
   ],
   "education": [
     {
-      "name": "Ajay Kumar Garg Engineering College, (AKTU | UPTU)",
+      "name": "Ajay Kumar Garg Engineering College",
       "degree": "B.Tech",
       "specilization": "Computer Science",
-      "duration": "2013 - 2017"
+      "duration": "2013 - 2017",
+      "location": "Ghaziabad, UP"
     },
     {
       "name": "St. Meera's Inter College",
       "degree": "Intermediate",
       "specilization": "PCM and Computers",
-      "duration": "2012"
+      "duration": "2012",
+      "location": "Lucknow, UP"
     }
   ],
   "skills": {
@@ -81,45 +93,45 @@
       {
         "name": "Frontend",
         "items": [
-          "React",
-          "JavaScript",
-          "TypeScript",
-          "HTML/CSS",
-          "LESS",
-          "SASS",
-          "Webpack",
-          "Micro Frontends",
-          "Redux"
+          { "name": "React", "level": "Expert", "years": 8 },
+          { "name": "JavaScript", "level": "Expert", "years": 9 },
+          { "name": "TypeScript", "level": "Advanced", "years": 5 },
+          { "name": "HTML/CSS", "level": "Expert", "years": 9 },
+          { "name": "Redux", "level": "Advanced", "years": 7 },
+          { "name": "Webpack", "level": "Advanced", "years": 6 },
+          { "name": "Micro Frontends", "level": "Advanced", "years": 5 },
+          { "name": "LESS/SASS", "level": "Intermediate", "years": 8 }
         ]
       },
       {
         "name": "Testing",
         "items": [
-          "Jest",
-          "React Testing Library"
+          { "name": "Jest", "level": "Advanced", "years": 6 },
+          { "name": "React Testing Library", "level": "Advanced", "years": 6 }
         ]
       },
       {
         "name": "Platform & Tooling",
         "items": [
-          "Git",
-          "CI/CD",
-          "Webpack Module Federation"
+          { "name": "Git", "level": "Expert", "years": 9 },
+          { "name": "CI/CD", "level": "Advanced", "years": 5 },
+          { "name": "Webpack Module Federation", "level": "Advanced", "years": 5 }
         ]
       },
       {
         "name": "Quality & Observability",
         "items": [
-          "SonarCloud",
-          "Elastic APM"
+          { "name": "SonarCloud", "level": "Advanced", "years": 5 },
+          { "name": "Elastic APM", "level": "Intermediate", "years": 4 }
         ]
       },
       {
         "name": "AI Productivity Tools",
         "items": [
-          "GitHub Copilot",
-          "Cursor",
-          "ChatGPT (PR reviews, refactoring, test generation)"
+          { "name": "Claude Code", "level": "Expert", "years": 1 },
+          { "name": "GitHub Copilot", "level": "Expert", "years": 3 },
+          { "name": "Cursor", "level": "Expert", "years": 2 },
+          { "name": "ChatGPT", "level": "Expert", "years": 4 }
         ]
       }
     ],
@@ -132,57 +144,112 @@
   },
   "projects": [
     {
-      "title": "Billing flow module",
-      "period": "Sept. 2019 - Current",
-      "description": "Worked on a complete user journey from plan selection to payment. The main focus was to create reusable components, optimization. Created a mono-repo from common code which can be easily used by other projects too.",
-      "link": "https://app.sendinblue.com/billing/"
+      "title": "Henrise Agro Farm",
+      "period": "April 2026 - Present",
+      "description": "Developed a modern, responsive B2B agricultural and poultry enterprise platform for Henrise Agro Farm (Azamgarh, UP). Built with React and hosted on Cloudflare Pages. Integrated Razorpay payment solutions, optimized for mobile-first responsiveness, and designed custom pipelines for hatchery chick allocations, wholesale poultry feed distribution, and authorized cold-chain veterinary supplies.",
+      "link": "http://henriseagrofarm.com",
+      "github": "",
+      "image": "/images/projects/henriseAgroFarm.jpg",
+      "skills": ["React", "Cloudflare Pages", "Razorpay", "B2B Logistics", "Tailwind CSS"]
+    },
+    {
+      "title": "PRICING V4 & V5 (Brevo)",
+      "period": "Nov. 2021 - Present",
+      "description": "Led frontend development, managed a team of six, and integrated Adyen and Stripe payment methods. Designed and scaled vertical-based pricing and checkout structures with dynamic plans.",
+      "link": "https://app.brevo.com/billing/account/plans/upgrade",
+      "github": "",
+      "image": "/images/projects/brevo-v4-pricing.jpg",
+      "skills": ["React", "Webpack Module Federation", "Adyen", "Stripe", "Micro Frontends", "Performance"]
+    },
+    {
+      "title": "REBRANDING TO BREVO",
+      "period": "Jan. 2023 - May 2023",
+      "description": "Ensured production stability during theme changes for Quality Assurance testing on the new domain during the rebranding of Sendinblue to Brevo.",
+      "link": "https://www.brevo.com",
+      "github": "",
+      "image": "/images/projects/brevo-rebranding.jpg",
+      "skills": ["React", "CSS Theme Changes", "Domain Migration", "QA Validation"]
+    },
+    {
+      "title": "PRICING V2 (Sendinblue)",
+      "period": "Sept. 2019 - June 2020",
+      "description": "Developed the complete user journey, creating reusable components, and optimizing the overall experience.",
+      "link": "",
+      "github": "",
+      "image": "/images/projects/brevo-v2-pricing.jpg",
+      "skills": ["React", "Redux", "Monolith Decoupling", "Shared UI Libraries"]
     },
     {
       "title": "Campaign checker",
       "period": "Dec. 2020",
-      "description": "Created a React-based pre-check email campaign tool to avoid errors in the campaign. It was two days competition where we have to finalize the idea and execute it. This tool provides facilities like spell-check, personalization check, broken-link check, missing alt tag of images, available credits check."
+      "description": "Created a React-based pre-check email campaign tool to avoid errors in the campaign. It was two days competition where we have to finalize the idea and execute it. This tool provides facilities like spell-check, personalization check, broken-link check, missing alt tag of images, available credits check.",
+      "link": "",
+      "github": "",
+      "image": "/images/projects/campaign-checker.jpg",
+      "skills": ["React", "Spell-check", "API Integration", "Hackathon"]
     },
     {
       "title": "React17-webpack5-boilerplate",
       "period": "Dec. 2020",
       "description": "React17, webpack5, SASS, Eslint and many things to kick start a new project",
-      "link": "https://github.com/abhinavRai23/react-webpack5-boilerplate"
+      "link": "",
+      "github": "https://github.com/abhinavRai23/react-webpack5-boilerplate",
+      "image": "/images/projects/boilerplate.jpg",
+      "skills": ["React 17", "Webpack 5", "SASS", "ESLint", "Boilerplate"]
     },
     {
       "title": "AFINOZ website",
       "period": "July 2017 - Aug. 2019",
       "description": "Develop FrontEnd of Website using ReactJs, optimize website performance, API Integration. Create Custom templates for the same type of pages.",
-      "link": "http://afinoz.com/"
+      "link": "http://afinoz.com/",
+      "github": "",
+      "image": "/images/projects/afinoz.jpg",
+      "skills": ["React", "MaterializeCSS", "SEO Optimization", "Node.js", "Performance"]
     },
     {
       "title": "CRM-Afinoz",
       "period": "Mar. 2018 - July 2018",
       "description": "Develop FrontEnd of CRM using ReactJs/Redux, ChartJs and MaterializeCSS. Create customizable components which can be used in multiple containers, integrate APIs.",
-      "link": "https://crm.afinoz.com/"
+      "link": "https://crm.afinoz.com/",
+      "github": "",
+      "image": "/images/projects/crm.jpg",
+      "skills": ["React", "Redux", "Chart.js", "MaterializeCSS"]
     },
     {
       "title": "CMS-Afinoz",
       "period": "July 2018 - Aug. 2019",
       "description": "Develop CMS using rich text-editor, ReactJs and MaterializeCSS. Integrate related APIs.",
-      "link": "https://cms.afinoz.com/"
+      "link": "https://cms.afinoz.com/",
+      "github": "",
+      "image": "/images/projects/cms.jpg",
+      "skills": ["React", "Rich Text Editor", "CMS", "MaterializeCSS"]
     },
     {
       "title": "E-Petition",
       "period": "Aug. 2016 - Aug. 2016",
       "description": "It's a Web project to sign online petitions. Learned code-igniter and developer this portal in one week. Technologies used Php-CodeIgniter, MySql, HTML, CSS, Material Design Lite, JavaScript, Jquery, Ajax.",
-      "link": "https://github.com/abhinavRai23/EPetition"
+      "link": "",
+      "github": "https://github.com/abhinavRai23/EPetition",
+      "image": "/images/projects/epetition.jpg",
+      "skills": ["PHP CodeIgniter", "MySQL", "Material Design Lite", "JQuery"]
     },
     {
       "title": "Samarpan",
       "period": "June 2016 - June 2016",
       "description": "It's a Laravel based web development project for using Senior citizens experience in Industries. My job is to create FrontEnd of the whole portal using Materialize-Bootstrap.",
-      "link": "https://github.com/abhinavRai23/Samarpan"
+      "link": "",
+      "github": "https://github.com/abhinavRai23/Samarpan",
+      "image": "/images/projects/samarpan.jpg",
+      "skills": ["Laravel", "Materialize Bootstrap", "PHP", "UI/UX"]
     },
     {
       "title": "Question Paper Portal",
       "period": "Sept. 2015 - Sept. 2015",
       "description": "It is a Modal Question Paper Upload Portal where faculty will upload their question with answers and students can see those questions online or download them. Technologies is using HTML/CSS, JavaScript, Jquery, PHP/MySql, BootStrap, CK-Editor.",
-      "link": "https://github.com/abhinavRai23/QP-Portal"
+      "link": "",
+      "github": "https://github.com/abhinavRai23/QP-Portal",
+      "image": "/images/projects/qpportal.jpg",
+      "skills": ["PHP", "MySQL", "Bootstrap", "CK-Editor"]
     }
   ],
   "awards": [
@@ -206,7 +273,7 @@
     },
     {
       "title": "Appreciation Letter",
-      "Date": "Aug 2016",
+      "date": "Aug 2016",
       "details": "Worked in State level project to generate 'Modal Question Papers' for which received an appreciation letter from Director of College."
     }
   ]
