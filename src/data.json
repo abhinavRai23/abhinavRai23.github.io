@@ -131,7 +131,8 @@
           { "name": "Claude Code", "level": "Expert", "years": 1 },
           { "name": "GitHub Copilot", "level": "Expert", "years": 3 },
           { "name": "Cursor", "level": "Expert", "years": 2 },
-          { "name": "ChatGPT", "level": "Expert", "years": 4 }
+          { "name": "ChatGPT", "level": "Expert", "years": 4 },
+          { "name": "Antigravity", "level": "Intermediate", "years": 1 }
         ]
       }
     ],
@@ -150,7 +151,7 @@
       "link": "http://henriseagrofarm.com",
       "github": "https://github.com/abhinavRai23/henrise-agro-farm",
       "image": "/images/projects/henriseAgroFarm.jpg",
-      "skills": ["React", "Cloudflare Pages", "Razorpay", "B2B Logistics", "Tailwind CSS"]
+      "skills": ["React", "Cloudflare Pages", "Tailwind CSS"]
     },
     {
       "title": "PRICING V4 & V5 (Brevo)",
@@ -159,7 +160,7 @@
       "link": "https://app.brevo.com/billing/account/plans/upgrade",
       "github": "",
       "image": "/images/projects/brevo-v4-pricing.jpg",
-      "skills": ["React", "Webpack Module Federation", "Adyen", "Stripe", "Micro Frontends", "Performance"]
+      "skills": ["React", "Webpack Module Federation", "Adyen", "Stripe", "Micro Frontends", "Performance Optimization"]
     },
     {
       "title": "REBRANDING TO BREVO",
