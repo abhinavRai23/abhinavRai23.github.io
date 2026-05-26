@@ -172,6 +172,15 @@
       "skills": ["React", "CSS Theme Changes", "Domain Migration", "QA Validation"]
     },
     {
+      "title": "GiphyStore",
+      "period": "Apr. 25, 2022",
+      "description": "Built a React app for browsing trending GIFs and searching the Giphy library. It uses the Giphy API, debounced search, infinite scrolling with Intersection Observer, a responsive masonry-style gallery, full-screen GIF previews, and light/dark theme toggling.",
+      "link": "https://abhinavrai23.github.io/GiphyStore/",
+      "github": "https://github.com/abhinavRai23/GiphyStore",
+      "image": "/images/projects/GiphyStore.jpg",
+      "skills": ["React", "Giphy API", "Axios", "Intersection Observer", "GitHub Pages"]
+    },
+    {
       "title": "PRICING V2 (Sendinblue)",
       "period": "Sept. 2019 - June 2020",
       "description": "Developed the complete user journey, creating reusable components, and optimizing the overall experience.",
