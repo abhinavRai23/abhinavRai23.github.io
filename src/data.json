@@ -145,6 +145,15 @@
   },
   "projects": [
     {
+      "title": "BeyondSalary",
+      "period": "May 2026",
+      "description": "Developed an interactive, premium data-journalism storytelling dashboard for software engineers to compare compensation, cost of living, social safety nets, and quality of life across top tech hubs. Built with Next.js and Tailwind CSS, featuring dynamic side-by-side calculators, savings simulators, and responsive Recharts visualizations.",
+      "link": "https://beyond-salary.vercel.app",
+      "github": "https://github.com/abhinavRai23/BeyondSalary",
+      "image": "/images/projects/beyondsalary.jpg",
+      "skills": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Recharts", "Framer Motion"]
+    },
+    {
       "title": "Henrise Agro Farm",
       "period": "May 2026 - May 2026",
       "description": "Developed a modern, responsive B2B agricultural and poultry enterprise platform for Henrise Agro Farm (Azamgarh, UP). Built with React and hosted on Cloudflare Pages. Integrated Razorpay payment solutions, optimized for mobile-first responsiveness, and designed custom pipelines for hatchery chick allocations, wholesale poultry feed distribution, and authorized cold-chain veterinary supplies.",
