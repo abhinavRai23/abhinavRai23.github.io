@@ -157,7 +157,7 @@
       "title": "Henrise Agro Farm",
       "period": "May 2026",
       "description": "Developed a modern, responsive B2B agricultural and poultry enterprise platform for Henrise Agro Farm (Azamgarh, UP). Built with React and hosted on Cloudflare Pages. Integrated Razorpay payment solutions, optimized for mobile-first responsiveness, and designed custom pipelines for hatchery chick allocations, wholesale poultry feed distribution, and authorized cold-chain veterinary supplies.",
-      "link": "http://henriseagrofarm.com",
+      "link": "https://henriseagrofarm.surge.sh",
       "github": "https://github.com/abhinavRai23/henrise-agro-farm",
       "image": "/images/projects/henriseAgroFarm.jpg",
       "skills": ["React", "Cloudflare Pages", "Tailwind CSS"]
