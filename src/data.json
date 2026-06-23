@@ -3,7 +3,7 @@
     "name": "Abhinav Rai",
     "phone_number": "8743960158",
     "email_id": "abhinav.rai1994@gmail.com",
-    "address": "Lucknow, India",
+    "address": "Bengaluru, India",
     "about": "Hi, I am a Senior Software Engineer with 9+ years of experience building scalable, high-performance frontend systems. I have strong expertise in React-based architectures, micro-frontends, pricing platforms, and payment flows, with a proven track record of leading frontend initiatives, improving delivery velocity, and shipping business-critical features under tight timelines.",
     "socials": {
       "github": "https://github.com/abhinavRai23",
@@ -17,7 +17,15 @@
       "organization": "Brevo (Formerly Sendinblue)",
       "duration": "Jan 2022 - May 2026",
       "logo": "/images/companies/brevo.png",
-      "skills": ["React", "Webpack Module Federation", "Adyen", "Stripe", "Micro Frontends", "Lighthouse", "Performance"],
+      "skills": [
+        "React",
+        "Webpack Module Federation",
+        "Adyen",
+        "Stripe",
+        "Micro Frontends",
+        "Lighthouse",
+        "Performance"
+      ],
       "description": [
         "Led frontend development for Pricing V4 and V5, managing a team of 6 engineers and owning delivery of pricing and checkout flows.",
         "Pricing V5: Migrated to a single-vertical, add-on–based pricing model, launching a new Pro plan (between Business and Enterprise) and a new sales package; delivered end-to-end in 6 months.",
@@ -32,7 +40,14 @@
       "organization": "Brevo (Formerly Sendinblue)",
       "duration": "Sept 2019 - Dec 2021",
       "logo": "/images/companies/brevo.png",
-      "skills": ["React", "Redux", "PayPal", "Direct Debit", "Monolith Decoupling", "Shared UI Libraries"],
+      "skills": [
+        "React",
+        "Redux",
+        "PayPal",
+        "Direct Debit",
+        "Monolith Decoupling",
+        "Shared UI Libraries"
+      ],
       "description": [
         "Developed end-to-end V2 pricing and checkout journeys, focusing on state management and API integration.",
         "Decoupled pricing frontend from a Symphony-based monolith, creating a dedicated React repository with full frontend ownership.",
@@ -46,7 +61,14 @@
       "organization": "Afinoz",
       "duration": "July 2017 - Sept. 2019",
       "logo": "/images/companies/afinoz.jpg",
-      "skills": ["React", "MaterializeCSS", "SEO Optimization", "Node.js", "Chart.js", "Redux"],
+      "skills": [
+        "React",
+        "MaterializeCSS",
+        "SEO Optimization",
+        "Node.js",
+        "Chart.js",
+        "Redux"
+      ],
       "description": [
         "Built Afinoz’s main website using React and MaterializeCSS, reducing homepage load time from 9s to 0.8s.",
         "Led development of Personal Loan, Business Loan, eligibility, application, blog, and bank pages.",
@@ -60,7 +82,12 @@
       "organization": "SysBiome Technologies",
       "duration": "July 2016 - Aug. 2016",
       "logo": "",
-      "skills": ["Laravel", "PHP", "Materialize Bootstrap", "UI/UX"],
+      "skills": [
+        "Laravel",
+        "PHP",
+        "Materialize Bootstrap",
+        "UI/UX"
+      ],
       "description": "Worked on Laravel based Web development project named Samarpan where I have to develop the whole UI using Materialize Bootstrap."
     },
     {
@@ -68,7 +95,12 @@
       "organization": "Adroha",
       "duration": "Mar. 2016 - Apr. 2016",
       "logo": "",
-      "skills": ["Stripe", "Payment Gateways", "PHP", "JavaScript"],
+      "skills": [
+        "Stripe",
+        "Payment Gateways",
+        "PHP",
+        "JavaScript"
+      ],
       "description": "Worked as an Intern. Integrated Stripe Payment Gateway."
     }
   ],
@@ -93,46 +125,126 @@
       {
         "name": "Frontend",
         "items": [
-          { "name": "React", "level": "Expert", "years": 8 },
-          { "name": "JavaScript", "level": "Expert", "years": 9 },
-          { "name": "TypeScript", "level": "Advanced", "years": 5 },
-          { "name": "HTML/CSS", "level": "Expert", "years": 9 },
-          { "name": "Redux", "level": "Advanced", "years": 7 },
-          { "name": "Webpack", "level": "Advanced", "years": 6 },
-          { "name": "Micro Frontends", "level": "Advanced", "years": 5 },
-          { "name": "LESS/SASS", "level": "Intermediate", "years": 8 }
+          {
+            "name": "React",
+            "level": "Expert",
+            "years": 8
+          },
+          {
+            "name": "JavaScript",
+            "level": "Expert",
+            "years": 9
+          },
+          {
+            "name": "TypeScript",
+            "level": "Advanced",
+            "years": 5
+          },
+          {
+            "name": "HTML/CSS",
+            "level": "Expert",
+            "years": 9
+          },
+          {
+            "name": "Redux",
+            "level": "Advanced",
+            "years": 7
+          },
+          {
+            "name": "Webpack",
+            "level": "Advanced",
+            "years": 6
+          },
+          {
+            "name": "Micro Frontends",
+            "level": "Advanced",
+            "years": 5
+          },
+          {
+            "name": "LESS/SASS",
+            "level": "Intermediate",
+            "years": 8
+          }
         ]
       },
       {
         "name": "Testing",
         "items": [
-          { "name": "Jest", "level": "Advanced", "years": 6 },
-          { "name": "React Testing Library", "level": "Advanced", "years": 6 }
+          {
+            "name": "Jest",
+            "level": "Advanced",
+            "years": 6
+          },
+          {
+            "name": "React Testing Library",
+            "level": "Advanced",
+            "years": 6
+          }
         ]
       },
       {
         "name": "Platform & Tooling",
         "items": [
-          { "name": "Git", "level": "Expert", "years": 9 },
-          { "name": "CI/CD", "level": "Advanced", "years": 5 },
-          { "name": "Webpack Module Federation", "level": "Advanced", "years": 5 }
+          {
+            "name": "Git",
+            "level": "Expert",
+            "years": 9
+          },
+          {
+            "name": "CI/CD",
+            "level": "Advanced",
+            "years": 5
+          },
+          {
+            "name": "Webpack Module Federation",
+            "level": "Advanced",
+            "years": 5
+          }
         ]
       },
       {
         "name": "Quality & Observability",
         "items": [
-          { "name": "SonarCloud", "level": "Advanced", "years": 5 },
-          { "name": "Elastic APM", "level": "Intermediate", "years": 4 }
+          {
+            "name": "SonarCloud",
+            "level": "Advanced",
+            "years": 5
+          },
+          {
+            "name": "Elastic APM",
+            "level": "Intermediate",
+            "years": 4
+          }
         ]
       },
       {
         "name": "AI Productivity Tools",
         "items": [
-          { "name": "Claude Code", "level": "Expert", "years": 1 },
-          { "name": "GitHub Copilot", "level": "Expert", "years": 3 },
-          { "name": "Cursor", "level": "Expert", "years": 2 },
-          { "name": "ChatGPT", "level": "Expert", "years": 4 },
-          { "name": "Antigravity", "level": "Intermediate", "years": 1 }
+          {
+            "name": "Claude Code",
+            "level": "Expert",
+            "years": 1
+          },
+          {
+            "name": "GitHub Copilot",
+            "level": "Expert",
+            "years": 3
+          },
+          {
+            "name": "Cursor",
+            "level": "Expert",
+            "years": 2
+          },
+          {
+            "name": "ChatGPT",
+            "level": "Expert",
+            "years": 4
+          },
+          {
+            "name": "Antigravity",
+            "level": "Intermediate",
+            "years": 1
+          }
         ]
       }
     ],
@@ -151,7 +263,14 @@
       "link": "https://beyond-salary.vercel.app",
       "github": "https://github.com/abhinavRai23/BeyondSalary",
       "image": "/images/projects/beyondsalary.jpg",
-      "skills": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Recharts", "Framer Motion"]
+      "skills": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Recharts",
+        "Framer Motion"
+      ]
     },
     {
       "title": "Henrise Agro Farm",
@@ -160,7 +279,11 @@
       "link": "https://henriseagrofarm.surge.sh",
       "github": "https://github.com/abhinavRai23/henrise-agro-farm",
       "image": "/images/projects/henriseAgroFarm.jpg",
-      "skills": ["React", "Cloudflare Pages", "Tailwind CSS"]
+      "skills": [
+        "React",
+        "Cloudflare Pages",
+        "Tailwind CSS"
+      ]
     },
     {
       "title": "PRICING V4 & V5 (Brevo)",
@@ -169,7 +292,14 @@
       "link": "https://app.brevo.com/billing/account/plans/upgrade",
       "github": "",
       "image": "/images/projects/brevo-v4-pricing.jpg",
-      "skills": ["React", "Webpack Module Federation", "Adyen", "Stripe", "Micro Frontends", "Performance Optimization"]
+      "skills": [
+        "React",
+        "Webpack Module Federation",
+        "Adyen",
+        "Stripe",
+        "Micro Frontends",
+        "Performance Optimization"
+      ]
     },
     {
       "title": "REBRANDING TO BREVO",
@@ -178,7 +308,12 @@
       "link": "https://www.brevo.com",
       "github": "",
       "image": "/images/projects/brevo-rebranding.jpg",
-      "skills": ["React", "CSS Theme Changes", "Domain Migration", "QA Validation"]
+      "skills": [
+        "React",
+        "CSS Theme Changes",
+        "Domain Migration",
+        "QA Validation"
+      ]
     },
     {
       "title": "GiphyStore",
@@ -187,7 +322,13 @@
       "link": "https://abhinavrai23.github.io/GiphyStore/",
       "github": "https://github.com/abhinavRai23/GiphyStore",
       "image": "/images/projects/GiphyStore.jpg",
-      "skills": ["React", "Giphy API", "Axios", "Intersection Observer", "GitHub Pages"]
+      "skills": [
+        "React",
+        "Giphy API",
+        "Axios",
+        "Intersection Observer",
+        "GitHub Pages"
+      ]
     },
     {
       "title": "PRICING V2 (Sendinblue)",
@@ -196,7 +337,12 @@
       "link": "",
       "github": "",
       "image": "/images/projects/brevo-v2-pricing.jpg",
-      "skills": ["React", "Redux", "Monolith Decoupling", "Shared UI Libraries"]
+      "skills": [
+        "React",
+        "Redux",
+        "Monolith Decoupling",
+        "Shared UI Libraries"
+      ]
     },
     {
       "title": "Campaign checker",
@@ -205,7 +351,12 @@
       "link": "",
       "github": "",
       "image": "/images/projects/campaign-checker.jpg",
-      "skills": ["React", "Spell-check", "API Integration", "Hackathon"]
+      "skills": [
+        "React",
+        "Spell-check",
+        "API Integration",
+        "Hackathon"
+      ]
     },
     {
       "title": "React17-webpack5-boilerplate",
@@ -214,7 +365,13 @@
       "link": "",
       "github": "https://github.com/abhinavRai23/react-webpack5-boilerplate",
       "image": "/images/projects/boilerplate.jpg",
-      "skills": ["React 17", "Webpack 5", "SASS", "ESLint", "Boilerplate"]
+      "skills": [
+        "React 17",
+        "Webpack 5",
+        "SASS",
+        "ESLint",
+        "Boilerplate"
+      ]
     },
     {
       "title": "AFINOZ website",
@@ -223,7 +380,13 @@
       "link": "http://afinoz.com/",
       "github": "",
       "image": "/images/projects/afinoz.jpg",
-      "skills": ["React", "MaterializeCSS", "SEO Optimization", "Node.js", "Performance"]
+      "skills": [
+        "React",
+        "MaterializeCSS",
+        "SEO Optimization",
+        "Node.js",
+        "Performance"
+      ]
     },
     {
       "title": "CRM-Afinoz",
@@ -232,7 +395,12 @@
       "link": "https://crm.afinoz.com/",
       "github": "",
       "image": "/images/projects/crm.jpg",
-      "skills": ["React", "Redux", "Chart.js", "MaterializeCSS"]
+      "skills": [
+        "React",
+        "Redux",
+        "Chart.js",
+        "MaterializeCSS"
+      ]
     },
     {
       "title": "CMS-Afinoz",
@@ -241,7 +409,12 @@
       "link": "https://cms.afinoz.com/",
       "github": "",
       "image": "/images/projects/cms.jpg",
-      "skills": ["React", "Rich Text Editor", "CMS", "MaterializeCSS"]
+      "skills": [
+        "React",
+        "Rich Text Editor",
+        "CMS",
+        "MaterializeCSS"
+      ]
     },
     {
       "title": "E-Petition",
@@ -250,7 +423,12 @@
       "link": "",
       "github": "https://github.com/abhinavRai23/EPetition",
       "image": "/images/projects/epetition.jpg",
-      "skills": ["PHP CodeIgniter", "MySQL", "Material Design Lite", "JQuery"]
+      "skills": [
+        "PHP CodeIgniter",
+        "MySQL",
+        "Material Design Lite",
+        "JQuery"
+      ]
     },
     {
       "title": "Samarpan",
@@ -259,7 +437,12 @@
       "link": "",
       "github": "https://github.com/abhinavRai23/Samarpan",
       "image": "/images/projects/samarpan.jpg",
-      "skills": ["Laravel", "Materialize Bootstrap", "PHP", "UI/UX"]
+      "skills": [
+        "Laravel",
+        "Materialize Bootstrap",
+        "PHP",
+        "UI/UX"
+      ]
     },
     {
       "title": "Question Paper Portal",
@@ -268,7 +451,12 @@
       "link": "",
       "github": "https://github.com/abhinavRai23/QP-Portal",
       "image": "/images/projects/qpportal.jpg",
-      "skills": ["PHP", "MySQL", "Bootstrap", "CK-Editor"]
+      "skills": [
+        "PHP",
+        "MySQL",
+        "Bootstrap",
+        "CK-Editor"
+      ]
     }
   ],
   "awards": [
