@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import {
     ExternalLink, Sprout, CreditCard, MailCheck, Boxes,
-    Globe, Users, FileEdit, PenTool, HeartHandshake, BookOpen, Laptop, FolderGit2, Github
+    Globe, Users, FileEdit, PenTool, HeartHandshake, BookOpen, Laptop, FolderGit2, Github, X
 } from 'lucide-react';
 
 interface ProjectItem {
@@ -43,7 +44,7 @@ const getProjectIcon = (title: string) => {
     return Laptop;
 };
 
-const ProjectCard: React.FC<ProjectItem & { index: number }> = ({
+const ProjectCard: React.FC<ProjectItem & { index: number; onImageClick: (image: string) => void }> = ({
     title,
     period,
     description,
@@ -52,6 +53,7 @@ const ProjectCard: React.FC<ProjectItem & { index: number }> = ({
     image,
     skills = [],
     index,
+    onImageClick,
 }) => {
     const gradientClass = GRADIENTS[index % GRADIENTS.length];
     const IconComponent = getProjectIcon(title);
@@ -61,15 +63,20 @@ const ProjectCard: React.FC<ProjectItem & { index: number }> = ({
             {/* Project Header visual block */}
             <div className="h-48 relative flex items-center justify-center overflow-hidden bg-slate-100/50 dark:bg-slate-950/20 border-b border-slate-200/50 dark:border-slate-850/50">
                 {image ? (
-                    <>
+                    <button
+                        type="button"
+                        onClick={() => onImageClick(image)}
+                        className="w-full h-full relative cursor-zoom-in group/image"
+                        aria-label={`View larger image for ${title}`}
+                    >
                         <img
                             src={image}
                             alt={title}
                             loading="lazy"
-                            className="w-full h-full object-cover p-3 group-hover:scale-102 transition-transform duration-500"
+                            className="w-full h-full object-cover p-3 group-hover/image:scale-102 transition-transform duration-500"
                         />
-                        <div className="absolute inset-0 bg-slate-950/5 group-hover:bg-slate-950/10 transition-colors pointer-events-none" />
-                    </>
+                        <div className="absolute inset-0 bg-slate-950/5 group-hover/image:bg-slate-950/10 transition-colors pointer-events-none" />
+                    </button>
                 ) : (
                     <>
                         <div className={`absolute inset-0 bg-gradient-to-br ${gradientClass}`} />
@@ -145,6 +152,20 @@ const ProjectCard: React.FC<ProjectItem & { index: number }> = ({
 };
 
 const Projects: React.FC<ProjectsProps> = ({ projects = [] }) => {
+    const [selectedImage, setSelectedImage] = useState<string | null>(null);
+
+    // Prevent scrolling on the body when the modal is open
+    useEffect(() => {
+        if (selectedImage) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = '';
+        }
+        return () => {
+            document.body.style.overflow = '';
+        };
+    }, [selectedImage]);
+
     return (
         <section
             className="py-24 px-6 md:px-12 lg:px-16 max-w-5xl mx-auto"
@@ -170,10 +191,34 @@ const Projects: React.FC<ProjectsProps> = ({ projects = [] }) => {
                     <ProjectCard
                         key={project.title}
                         index={index}
+                        onImageClick={setSelectedImage}
                         {...project}
                     />
                 ))}
             </div>
+
+            {/* Image Modal */}
+            {selectedImage && createPortal(
+                <div 
+                    className="fixed inset-0 w-screen h-screen z-[100] flex items-center justify-center bg-slate-950/80 backdrop-blur-sm p-4 sm:p-8 box-border"
+                    onClick={() => setSelectedImage(null)}
+                >
+                    <button 
+                        className="absolute top-4 right-4 sm:top-6 sm:right-6 text-white/70 hover:text-white p-2 transition-colors rounded-full bg-black/20 hover:bg-black/40 z-10"
+                        onClick={() => setSelectedImage(null)}
+                        aria-label="Close image"
+                    >
+                        <X className="w-6 h-6 sm:w-8 sm:h-8" />
+                    </button>
+                    <img 
+                        src={selectedImage} 
+                        alt="Project detail" 
+                        className="max-w-full max-h-full object-contain rounded-xl shadow-2xl"
+                        onClick={(e) => e.stopPropagation()}
+                    />
+                </div>,
+                document.body
+            )}
         </section>
     );
 };
