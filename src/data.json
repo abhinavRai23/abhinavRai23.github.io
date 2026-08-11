@@ -257,6 +257,19 @@
   },
   "projects": [
     {
+      "title": "What to Cook",
+      "period": "August 2026",
+      "description": "Take the cognitive load out of meal planning. This smart React app tracks what you've cooked recently to intelligently generate fresh daily menus, prevent recipe repetition, and export full weekly planners. Stop thinking, start cooking!",
+      "link": "https://abhinavrai23.github.io/what-to-cook/",
+      "github": "https://github.com/abhinavRai23/what-to-cook",
+      "image": "/images/projects/what-to-cook.jpg",
+      "skills": [
+        "React",
+        "Meal Planning",
+        "Responsive Design"
+      ]
+    },
+    {
       "title": "BeyondSalary",
       "period": "May 2026",
       "description": "Developed an interactive, premium data-journalism storytelling dashboard for software engineers to compare compensation, cost of living, social safety nets, and quality of life across top tech hubs. Built with Next.js and Tailwind CSS, featuring dynamic side-by-side calculators, savings simulators, and responsive Recharts visualizations.",
