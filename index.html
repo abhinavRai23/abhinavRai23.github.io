@@ -1,65 +1,49 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
-        <meta
-            name="description"
-            content="Abhinav Rai | Senior Software Engineer | Portfolio"
-        />
-        <meta name="author" content="Abhinav Rai" />
-        <meta
-            name="keywords"
-            content="React,Frontend Engineer,Senior Software Engineer,Micro Frontends,Performance,Pricing,Checkout,TypeScript"
-        />
-        <meta name="theme-color" content="#0f172a" />
-        <title>Abhinav Rai | Senior Software Engineer Portfolio</title>
-        <link rel="canonical" href="https://abhinavrai23.github.io/" />
 
-        <!-- Open Graph -->
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="website" />
-        <meta
-            property="og:title"
-            content="Abhinav Rai | Senior Software Engineer Portfolio"
-        />
-        <meta
-            property="og:description"
-            content="Senior Software Engineer with 9+ years building performant React frontends, micro-frontends, and pricing platforms."
-        />
-        <meta property="og:url" content="https://abhinavrai23.github.io/" />
-        <meta property="og:site_name" content="Abhinav Rai" />
-        <meta property="og:image" content="https://abhinavrai23.github.io/favicon.png" />
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Abhinav Rai | Senior Software Engineer | Portfolio" />
+    <meta name="author" content="Abhinav Rai" />
+    <meta name="keywords"
+        content="React,Frontend Engineer,Senior Software Engineer,Micro Frontends,Performance,Pricing,Checkout,TypeScript" />
+    <meta name="theme-color" content="#0f172a" />
+    <title>Abhinav Rai | Senior Software Engineer Portfolio</title>
+    <link rel="canonical" href="https://abhinavrai23.github.io/" />
 
-        <!-- Twitter Card -->
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@abhinav_rai1994" />
-        <meta name="twitter:creator" content="@abhinav_rai1994" />
-        <meta
-            name="twitter:title"
-            content="Abhinav Rai | Senior Software Engineer Portfolio"
-        />
-        <meta
-            name="twitter:description"
-            content="Senior Software Engineer with 9+ years building performant React frontends, micro-frontends, and pricing platforms."
-        />
-        <meta name="twitter:image" content="https://abhinavrai23.github.io/favicon.png" />
+    <!-- Open Graph -->
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Abhinav Rai | Senior Software Engineer Portfolio" />
+    <meta property="og:description"
+        content="Senior Software Engineer with 9+ years building performant React frontends, micro-frontends, and pricing platforms." />
+    <meta property="og:url" content="https://abhinavrai23.github.io/" />
+    <meta property="og:site_name" content="Abhinav Rai" />
+    <meta property="og:image" content="https://abhinavrai23.github.io/favicon.png" />
 
-       <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-DEEK6E745E"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@abhinav_rai1994" />
+    <meta name="twitter:creator" content="@abhinav_rai1994" />
+    <meta name="twitter:title" content="Abhinav Rai | Senior Software Engineer Portfolio" />
+    <meta name="twitter:description"
+        content="Senior Software Engineer with 9+ years building performant React frontends, micro-frontends, and pricing platforms." />
+    <meta name="twitter:image" content="https://abhinavrai23.github.io/favicon.png" />
 
-        gtag('config', 'G-DEEK6E745E');
-        </script>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TRPJ45F7');</script>
+    <!-- End Google Tag Manager -->
 
-        <!-- Structured data (JSON-LD) -->
-        <script type="application/ld+json">
+    <!-- Structured data (JSON-LD) -->
+    <script type="application/ld+json">
             {
                 "@context": "https://schema.org",
                 "@type": "Person",
@@ -80,56 +64,57 @@
             }
         </script>
 
-        <!-- Google scheme/theme script to prevent FOUC (flash of un-themed content) -->
-        <meta name="color-scheme" content="light dark" />
-        <script>
-            {
-                const colorScheme = localStorage.getItem('theme-mode')
-                if (colorScheme) {
-                    document.querySelector(
-                        'meta[name="color-scheme"]'
-                    ).content = colorScheme
-                    if (colorScheme === 'dark') {
-                        document.documentElement.classList.add('dark')
-                    } else {
-                        document.documentElement.classList.remove('dark')
-                    }
+    <!-- Google scheme/theme script to prevent FOUC (flash of un-themed content) -->
+    <meta name="color-scheme" content="light dark" />
+    <script>
+        {
+            const colorScheme = localStorage.getItem('theme-mode')
+            if (colorScheme) {
+                document.querySelector(
+                    'meta[name="color-scheme"]'
+                ).content = colorScheme
+                if (colorScheme === 'dark') {
+                    document.documentElement.classList.add('dark')
                 } else {
-                    const systemDark = window.matchMedia(
-                        '(prefers-color-scheme: dark)'
-                    ).matches
-                    if (systemDark) {
-                        document.documentElement.classList.add('dark')
-                    }
+                    document.documentElement.classList.remove('dark')
+                }
+            } else {
+                const systemDark = window.matchMedia(
+                    '(prefers-color-scheme: dark)'
+                ).matches
+                if (systemDark) {
+                    document.documentElement.classList.add('dark')
                 }
             }
-        </script>
+        }
+    </script>
 
-        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
 
-        <!-- Google Fonts: Inter (body) & Outfit (display/headings) -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            rel="preload"
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
-            as="style"
-            onload="
+    <!-- Google Fonts: Inter (body) & Outfit (display/headings) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        as="style" onload="
                 this.onload = null
                 this.rel = 'stylesheet'
-            "
-        />
-        <noscript
-            ><link
-                rel="stylesheet"
-                href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
-        /></noscript>
-    </head>
-    <body
-        class="bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100 transition-colors duration-300 font-sans antialiased overflow-x-hidden"
-    >
-        <div id="root"></div>
-        <script type="module" src="/src/index.tsx"></script>
-    </body>
+            " />
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" />
+    </noscript>
+</head>
+
+<body
+    class="bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100 transition-colors duration-300 font-sans antialiased overflow-x-hidden">
+    <div id="root"></div>
+    <script type="module" src="/src/index.tsx"></script>
+</body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TRPJ45F7" height="0" width="0"
+        style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 </html>
