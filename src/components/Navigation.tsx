@@ -48,7 +48,7 @@ const Navigation: React.FC<NavigationProps> = ({ list, name }) => {
                     <button
                         type="button"
                         onClick={toggleTheme}
-                        className="p-2 rounded-lg bg-slate-100 hover:bg-slate-200 dark:bg-slate-900 dark:hover:bg-slate-800 transition-colors text-slate-600 dark:text-slate-300"
+                        className="p-2 rounded-lg bg-slate-100 hover:bg-slate-200 dark:bg-slate-900 dark:hover:bg-slate-800 transition-colors text-slate-700 dark:text-slate-300"
                         aria-label="Toggle Theme"
                     >
                         {theme === 'dark' ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
@@ -56,7 +56,7 @@ const Navigation: React.FC<NavigationProps> = ({ list, name }) => {
                     <button
                         type="button"
                         onClick={() => setIsOpen(!isOpen)}
-                        className="p-2 rounded-lg bg-slate-100 hover:bg-slate-200 dark:bg-slate-900 dark:hover:bg-slate-800 transition-colors text-slate-600 dark:text-slate-300"
+                        className="p-2 rounded-lg bg-slate-100 hover:bg-slate-200 dark:bg-slate-900 dark:hover:bg-slate-800 transition-colors text-slate-700 dark:text-slate-300"
                         aria-label="Toggle Menu"
                     >
                         {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -80,7 +80,7 @@ const Navigation: React.FC<NavigationProps> = ({ list, name }) => {
                     <div className="flex justify-between items-center mt-12 pb-4 border-b dark:border-slate-850">
                         <span className="font-display font-bold text-slate-700 dark:text-slate-300">Navigation</span>
                         <button type="button" onClick={() => setIsOpen(false)}>
-                            <X className="w-5 h-5 text-slate-500" />
+                            <X className="w-5 h-5 text-slate-600" />
                         </button>
                     </div>
                     <ul className="flex flex-col gap-4">
@@ -89,7 +89,7 @@ const Navigation: React.FC<NavigationProps> = ({ list, name }) => {
                                 <a
                                     href={`#${item}`}
                                     onClick={() => setIsOpen(false)}
-                                    className="block font-display font-semibold text-lg text-slate-600 hover:text-primary dark:text-slate-400 dark:hover:text-primary transition-colors capitalize"
+                                    className="block font-display font-semibold text-lg text-slate-700 hover:text-primary dark:text-slate-300 dark:hover:text-primary transition-colors capitalize"
                                 >
                                     {item}
                                 </a>
@@ -119,7 +119,7 @@ const Navigation: React.FC<NavigationProps> = ({ list, name }) => {
                     <h2 className="font-display font-extrabold text-xl tracking-tight text-center mb-1 text-slate-800 dark:text-slate-100 px-2">
                         {name}
                     </h2>
-                    <p className="text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-8">
+                    <p className="text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-8">
                         Senior Software Engineer
                     </p>
 
@@ -129,7 +129,7 @@ const Navigation: React.FC<NavigationProps> = ({ list, name }) => {
                             <li key={item} className="w-full">
                                 <a
                                     href={`#${item}`}
-                                    className="flex w-full px-4 py-2.5 rounded-xl font-display font-bold text-sm tracking-wide capitalize text-slate-600 dark:text-slate-400 hover:bg-slate-200/50 dark:hover:bg-slate-900/50 hover:text-primary dark:hover:text-primary transition-all duration-200"
+                                    className="flex w-full px-4 py-2.5 rounded-xl font-display font-bold text-sm tracking-wide capitalize text-slate-700 dark:text-slate-300 hover:bg-slate-200/50 dark:hover:bg-slate-900/50 hover:text-primary dark:hover:text-primary transition-all duration-200"
                                 >
                                     {item}
                                 </a>
@@ -143,7 +143,7 @@ const Navigation: React.FC<NavigationProps> = ({ list, name }) => {
                     <button
                         type="button"
                         onClick={toggleTheme}
-                        className="flex items-center gap-3 px-5 py-2.5 rounded-xl border border-slate-200 dark:border-slate-800 bg-white/50 dark:bg-slate-900/30 hover:bg-white dark:hover:bg-slate-900 text-slate-600 dark:text-slate-300 transition-all duration-300 w-full justify-center hover:shadow-sm"
+                        className="flex items-center gap-3 px-5 py-2.5 rounded-xl border border-slate-200 dark:border-slate-800 bg-white/50 dark:bg-slate-900/30 hover:bg-white dark:hover:bg-slate-900 text-slate-700 dark:text-slate-300 transition-all duration-300 w-full justify-center hover:shadow-sm"
                     >
                         {theme === 'dark' ? (
                             <>
@@ -152,7 +152,7 @@ const Navigation: React.FC<NavigationProps> = ({ list, name }) => {
                             </>
                         ) : (
                             <>
-                                <Moon className="w-4 h-4 text-slate-500" />
+                                <Moon className="w-4 h-4 text-slate-600" />
                                 <span className="font-display font-semibold text-xs uppercase tracking-wider">Dark Mode</span>
                             </>
                         )}

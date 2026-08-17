@@ -28,7 +28,7 @@ const AwardBlock: React.FC<AwardItem> = ({
                     <h3 className="font-display font-bold text-lg text-slate-800 dark:text-white leading-snug">
                         {title}
                     </h3>
-                    <div className="text-xs font-semibold text-slate-400 dark:text-slate-500 flex items-center gap-1 shrink-0">
+                    <div className="text-xs font-semibold text-slate-500 dark:text-slate-400 flex items-center gap-1 shrink-0">
                         <Calendar className="w-3 h-3" />
                         <span>{date}</span>
                     </div>
@@ -36,7 +36,7 @@ const AwardBlock: React.FC<AwardItem> = ({
                 <div className="text-xs font-bold text-primary dark:text-primary-light uppercase tracking-wider mb-2">
                     {organiser}
                 </div>
-                <p className="text-sm text-slate-500 dark:text-slate-400 leading-relaxed text-justify">
+                <p className="text-sm text-slate-600 dark:text-slate-300 leading-relaxed text-justify">
                     {details}
                 </p>
             </div>
@@ -58,7 +58,7 @@ const Awards: React.FC<AwardsProps> = ({ awards = [] }) => {
                     <h2 className="font-display font-extrabold text-3xl md:text-4xl tracking-tight text-slate-900 dark:text-white uppercase">
                         Awards
                     </h2>
-                    <p className="text-xs font-semibold tracking-wider text-slate-400 dark:text-slate-500 uppercase mt-0.5">
+                    <p className="text-xs font-semibold tracking-wider text-slate-500 dark:text-slate-400 uppercase mt-0.5">
                         Achievements & Recognitions
                     </p>
                 </div>

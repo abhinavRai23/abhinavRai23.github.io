@@ -27,7 +27,7 @@ class ErrorBoundary extends Component<Props, State> {
                 <div className="min-h-screen flex items-center justify-center bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-100 p-6">
                     <div className="text-center p-8 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl shadow-lg">
                         <h1 className="text-2xl font-bold mb-3">Something went wrong</h1>
-                        <p className="text-slate-500 dark:text-slate-400 mb-6">We encountered an unexpected error rendering this view.</p>
+                        <p className="text-slate-600 dark:text-slate-300 mb-6">We encountered an unexpected error rendering this view.</p>
                         <button 
                             type="button"
                             onClick={() => window.location.reload()}

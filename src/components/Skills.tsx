@@ -72,7 +72,7 @@ const Skills: React.FC<SkillsProps> = ({ skills }) => {
                                 <span className="font-display font-bold text-sm text-slate-800 dark:text-slate-100 group-hover/item:text-primary transition-colors">
                                     {item.name}
                                 </span>
-                                <span className="text-xs font-semibold text-slate-400 dark:text-slate-500">
+                                <span className="text-xs font-semibold text-slate-500 dark:text-slate-400">
                                     <span className="text-primary dark:text-primary-light font-bold">{item.level}</span>
                                     {item.years > 0 && ` · ${item.years} ${item.years === 1 ? 'yr' : 'yrs'}`}
                                 </span>
@@ -105,7 +105,7 @@ const Skills: React.FC<SkillsProps> = ({ skills }) => {
                     <h2 className="font-display font-extrabold text-3xl md:text-4xl tracking-tight text-slate-900 dark:text-white uppercase">
                         Skills
                     </h2>
-                    <p className="text-xs font-semibold tracking-wider text-slate-400 dark:text-slate-500 uppercase mt-0.5">
+                    <p className="text-xs font-semibold tracking-wider text-slate-500 dark:text-slate-400 uppercase mt-0.5">
                         Technical Expertise & Experience
                     </p>
                 </div>
@@ -132,7 +132,7 @@ const Skills: React.FC<SkillsProps> = ({ skills }) => {
                             {workflows.map((workflow) => (
                                 <div key={workflow} className="flex items-center gap-3">
                                     <CheckCircle2 className="w-5 h-5 text-primary shrink-0" />
-                                    <span className="text-sm font-semibold text-slate-600 dark:text-slate-300 leading-tight">
+                                    <span className="text-sm font-semibold text-slate-700 dark:text-slate-300 leading-tight">
                                         {workflow}
                                     </span>
                                 </div>
