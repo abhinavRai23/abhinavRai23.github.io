@@ -26,7 +26,7 @@ const Navigation: React.FC<NavigationProps> = ({ list, name }) => {
         const newTheme = theme === 'dark' ? 'light' : 'dark';
         setTheme(newTheme);
         localStorage.setItem('theme-mode', newTheme);
-        
+
         // Update document element class
         if (newTheme === 'dark') {
             document.documentElement.classList.add('dark');
@@ -66,15 +66,13 @@ const Navigation: React.FC<NavigationProps> = ({ list, name }) => {
 
             {/* Mobile Navigation Drawer */}
             <div
-                className={`lg:hidden fixed inset-0 z-40 bg-slate-950/40 backdrop-blur-sm transition-opacity duration-300 ${
-                    isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
-                }`}
+                className={`lg:hidden fixed inset-0 z-40 bg-slate-950/40 backdrop-blur-sm transition-opacity duration-300 ${isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
+                    }`}
                 onClick={() => setIsOpen(false)}
             >
                 <div
-                    className={`absolute right-0 top-0 bottom-0 w-64 bg-white dark:bg-slate-950 p-6 flex flex-col gap-6 shadow-2xl border-l border-slate-200/50 dark:border-slate-850/50 transition-transform duration-300 ${
-                        isOpen ? 'translate-x-0' : 'translate-x-full'
-                    }`}
+                    className={`absolute right-0 top-0 bottom-0 w-64 bg-white dark:bg-slate-950 p-6 flex flex-col gap-6 shadow-2xl border-l border-slate-200/50 dark:border-slate-850/50 transition-transform duration-300 ${isOpen ? 'translate-x-0' : 'translate-x-full'
+                        }`}
                     onClick={(e) => e.stopPropagation()}
                 >
                     <div className="flex justify-between items-center mt-12 pb-4 border-b dark:border-slate-850">
@@ -108,7 +106,7 @@ const Navigation: React.FC<NavigationProps> = ({ list, name }) => {
                         <div className="relative rounded-full overflow-hidden w-36 h-36 border-4 border-white dark:border-slate-950 bg-slate-100 dark:bg-slate-900">
                             <img
                                 className="w-full h-full object-cover"
-                                src="/images/profile.png"
+                                src="/images/profile.jpg"
                                 alt={name}
                                 fetchPriority="high"
                                 decoding="async"
