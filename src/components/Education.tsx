@@ -41,7 +41,7 @@ const EducationBlock: React.FC<EducationItem> = ({
                             {degree}
                         </div>
                     </div>
-                    <div className="flex items-center gap-1.5 text-xs font-semibold text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-900 px-3 py-1.5 rounded-full self-start md:self-center">
+                    <div className="flex items-center gap-1.5 text-xs font-semibold text-slate-700 dark:text-slate-300 bg-slate-100 dark:bg-slate-900 px-3 py-1.5 rounded-full self-start md:self-center">
                         <Calendar className="w-3.5 h-3.5" />
                         <span>{duration}</span>
                     </div>
@@ -49,7 +49,7 @@ const EducationBlock: React.FC<EducationItem> = ({
                 
                 <div className="flex items-center gap-4 flex-wrap text-sm text-slate-600 dark:text-slate-300 font-medium">
                     <div className="flex items-center gap-1.5">
-                        <Award className="w-4 h-4 text-slate-500" />
+                        <Award className="w-4 h-4 text-slate-600" />
                         <span>{specilization}</span>
                     </div>
                     {location && (
@@ -81,7 +81,7 @@ const Education: React.FC<EducationProps> = ({ educations = [] }) => {
                     <h2 className="font-display font-extrabold text-3xl md:text-4xl tracking-tight text-slate-900 dark:text-white uppercase">
                         Education
                     </h2>
-                    <p className="text-xs font-semibold tracking-wider text-slate-500 dark:text-slate-400 uppercase mt-0.5">
+                    <p className="text-xs font-semibold tracking-wider text-slate-600 dark:text-slate-400 uppercase mt-0.5">
                         Academic Credentials
                     </p>
                 </div>

@@ -119,7 +119,7 @@ const Navigation: React.FC<NavigationProps> = ({ list, name }) => {
                     <h2 className="font-display font-extrabold text-xl tracking-tight text-center mb-1 text-slate-800 dark:text-slate-100 px-2">
                         {name}
                     </h2>
-                    <p className="text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-8">
+                    <p className="text-xs font-semibold uppercase tracking-wider text-slate-600 dark:text-slate-400 mb-8">
                         Senior Software Engineer
                     </p>
 

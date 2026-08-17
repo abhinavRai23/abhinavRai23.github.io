@@ -180,7 +180,7 @@ const Projects: React.FC<ProjectsProps> = ({ projects = [] }) => {
                     <h2 className="font-display font-extrabold text-3xl md:text-4xl tracking-tight text-slate-900 dark:text-white uppercase">
                         Projects
                     </h2>
-                    <p className="text-xs font-semibold tracking-wider text-slate-500 dark:text-slate-400 uppercase mt-0.5">
+                    <p className="text-xs font-semibold tracking-wider text-slate-600 dark:text-slate-400 uppercase mt-0.5">
                         Selected Works
                     </p>
                 </div>
