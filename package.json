@@ -2,7 +2,7 @@
     "name": "abhinavrai23.github.io",
     "type": "module",
     "version": "1.0.0",
-    "description": "My portfolio",
+    "description": "Abhinav Rai | Senior Software Engineer | Portfolio",
     "main": "index.js",
     "scripts": {
         "start": "vite",
