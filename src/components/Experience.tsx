@@ -88,7 +88,7 @@ const ExperienceBlock: React.FC<ExperienceItem & { isLast: boolean }> = ({
                             <h3 className="font-display font-bold text-xl text-slate-800 dark:text-white group-hover:text-primary transition-colors">
                                 {designation}
                             </h3>
-                            <div className="font-display font-semibold text-sm text-primary tracking-wide uppercase mt-0.5">
+                            <div className="font-display font-semibold text-sm text-primary dark:text-primary-light tracking-wide uppercase mt-0.5">
                                 {organization}
                             </div>
                         </div>

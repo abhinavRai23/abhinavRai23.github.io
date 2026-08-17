@@ -37,7 +37,7 @@ const EducationBlock: React.FC<EducationItem> = ({
                         <h3 className="font-display font-bold text-lg md:text-xl text-slate-800 dark:text-white">
                             {name}
                         </h3>
-                        <div className="font-display font-semibold text-sm text-primary uppercase mt-0.5 tracking-wider">
+                        <div className="font-display font-semibold text-sm text-primary dark:text-primary-light uppercase mt-0.5 tracking-wider">
                             {degree}
                         </div>
                     </div>
