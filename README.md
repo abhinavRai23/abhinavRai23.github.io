@@ -15,23 +15,13 @@ Created **React** based basic portfolio. A free template built with Bootstrap wa
 * change image from `./src/images/profile.webp`
 * update `data.json` from `./src/data.json`
 
-### Steps to publish any HTML-based project
+### Deployment via GitHub Actions
 
-To publish your own **React-app**, follow these steps:-
+This project automatically builds and deploys to **GitHub Pages** using GitHub Actions on every push to `main`:
 
-* Keep in mind your repository name should be `<your-username>.github.io`
-* Create your react based website.
-* create a script for production build, like
-
-	> ``` build: webpack --progress --profile ```
-* install `gh-pages` package and add two commands in your `package.json`
-
-   * `"predeploy": "pnpm run build"`
-
-   * `"deploy": "NODE_DEBUG=gh-pages gh-pages -d dist"`
-
-* To publish run `pnpm run deploy` command. It will create a new git branch that contains only the final build code.
-* Now go to your repo's GitHub
-	> `settings => Github Pages => Source branch => gh-pages`
-
-* Visit your website (It may take some time to publish)
+1. In repository **Settings** → **Pages** → **Build and deployment**:
+   - Set **Source** to **GitHub Actions**.
+2. Any push to `main` triggers `.github/workflows/deploy.yml`:
+   - Sets up Node.js 24 and pnpm.
+   - Runs `pnpm install --frozen-lockfile` and `pnpm run build`.
+   - Deploys `dist` directly to GitHub Pages with zero manual steps.
