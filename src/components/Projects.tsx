@@ -2,8 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import {
     ExternalLink, Sprout, CreditCard, MailCheck, Boxes,
-    Globe, Users, FileEdit, PenTool, HeartHandshake, BookOpen, Laptop, FolderGit2, Github, X
+    Globe, Users, FileEdit, PenTool, HeartHandshake, BookOpen, Laptop, FolderGit2, Github, X,
+    BarChart3, CheckSquare
 } from 'lucide-react';
+import type { LucideIcon } from 'lucide-react';
 
 interface ProjectItem {
     title: string;
@@ -28,20 +30,28 @@ const GRADIENTS = [
     'from-cyan-500 to-blue-600',
 ];
 
-// Helper to select the Lucide icon based on project title
-const getProjectIcon = (title: string) => {
-    const t = title.toLowerCase();
-    if (t.includes('henrise') || t.includes('agro') || t.includes('farm')) return Sprout;
-    if (t.includes('billing') || t.includes('payment')) return CreditCard;
-    if (t.includes('campaign') || t.includes('checker')) return MailCheck;
-    if (t.includes('boilerplate')) return Boxes;
-    if (t.includes('afinoz') && t.includes('website')) return Globe;
-    if (t.includes('crm')) return Users;
-    if (t.includes('cms')) return FileEdit;
-    if (t.includes('petition')) return PenTool;
-    if (t.includes('samarpan')) return HeartHandshake;
-    if (t.includes('question') || t.includes('portal') || t.includes('qp')) return BookOpen;
-    return Laptop;
+const PROJECT_ICON_RULES: Array<{ keywords: string[]; icon: LucideIcon }> = [
+    { keywords: ['streamhub', 'report'], icon: BarChart3 },
+    { keywords: ['todo', 'notes'], icon: CheckSquare },
+    { keywords: ['henrise', 'agro', 'farm'], icon: Sprout },
+    { keywords: ['billing', 'payment', 'pricing'], icon: CreditCard },
+    { keywords: ['campaign', 'checker'], icon: MailCheck },
+    { keywords: ['boilerplate'], icon: Boxes },
+    { keywords: ['afinoz'], icon: Globe },
+    { keywords: ['crm'], icon: Users },
+    { keywords: ['cms'], icon: FileEdit },
+    { keywords: ['petition'], icon: PenTool },
+    { keywords: ['samarpan'], icon: HeartHandshake },
+    { keywords: ['question', 'portal', 'qp'], icon: BookOpen },
+];
+
+// Helper to select the Lucide icon based on project title using rule mapping
+const getProjectIcon = (title: string): LucideIcon => {
+    const normalized = title.toLowerCase();
+    const matched = PROJECT_ICON_RULES.find(({ keywords }) =>
+        keywords.some((keyword) => normalized.includes(keyword))
+    );
+    return matched ? matched.icon : Laptop;
 };
 
 const ProjectCard: React.FC<ProjectItem & { index: number; onImageClick: (image: string) => void }> = ({

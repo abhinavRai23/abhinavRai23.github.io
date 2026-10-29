@@ -42,16 +42,16 @@ const getLevelColor = (level: string) => {
 const Skills: React.FC<SkillsProps> = ({ skills }) => {
     const { categories = [], workflows = [] } = skills;
 
-    const col1Names = ['Frontend', 'Quality & Observability'];
-    const col2Names = ['Testing', 'AI Productivity Tools', 'Platform & Tooling'];
+    const col1Categories: SkillCategory[] = [];
+    const col2Categories: SkillCategory[] = [];
 
-    const col1Categories = col1Names
-        .map(name => categories.find(c => c.name === name))
-        .filter((c): c is SkillCategory => !!c);
-
-    const col2Categories = col2Names
-        .map(name => categories.find(c => c.name === name))
-        .filter((c): c is SkillCategory => !!c);
+    categories.forEach((cat, index) => {
+        if (index % 2 === 0) {
+            col1Categories.push(cat);
+        } else {
+            col2Categories.push(cat);
+        }
+    });
 
     const renderCategoryCard = (category: SkillCategory) => (
         <div 

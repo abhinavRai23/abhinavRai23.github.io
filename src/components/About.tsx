@@ -4,6 +4,7 @@ import { Linkedin, Github, Download, MapPin, Mail, Phone } from 'lucide-react';
 interface AboutProps {
     about: {
         name: string;
+        role?: string;
         about: string;
         address: string;
         phone_number: string;
@@ -23,7 +24,7 @@ const XIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
 );
 
 const About: React.FC<AboutProps> = ({ about }) => {
-    const { name, about: bio, address, phone_number, email_id, socials } = about;
+    const { name, role, about: bio, address, phone_number, email_id, socials } = about;
 
     return (
         <section 
@@ -42,9 +43,15 @@ const About: React.FC<AboutProps> = ({ about }) => {
                 </div>
 
                 {/* Big Title Name */}
-                <h1 className="font-display font-extrabold text-5xl md:text-7xl lg:text-8xl tracking-tight mb-4 leading-none text-slate-900 dark:text-white">
+                <h1 className="font-display font-extrabold text-5xl md:text-7xl lg:text-8xl tracking-tight mb-2 leading-none text-slate-900 dark:text-white">
                     <span className="text-gradient">{name}</span>
                 </h1>
+
+                {role && (
+                    <h2 className="font-display font-bold text-xl md:text-2xl text-slate-700 dark:text-slate-300 mb-6 tracking-tight">
+                        {role}
+                    </h2>
+                )}
 
                 {/* Subtitle / Contacts */}
                 <div className="flex flex-wrap gap-x-6 gap-y-3 items-center text-sm font-semibold text-slate-600 dark:text-slate-300 mb-8 border-b dark:border-slate-850 pb-8">
