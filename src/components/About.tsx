@@ -27,8 +27,8 @@ const About: React.FC<AboutProps> = ({ about }) => {
     const { name, role, about: bio, address, phone_number, email_id, socials } = about;
 
     return (
-        <section 
-            className="min-h-screen flex items-center justify-center py-20 px-6 md:px-12 lg:px-16 relative overflow-hidden" 
+        <section
+            className="min-h-screen flex items-center justify-center py-20 px-6 md:px-12 lg:px-16 relative overflow-hidden"
             id="about"
         >
             {/* Ambient Background Glowing Orb */}
@@ -119,7 +119,7 @@ const About: React.FC<AboutProps> = ({ about }) => {
                     </div>
 
                     <a
-                        href="/Abhinav-Rai(FrontEnd).pdf"
+                        href="/Abhinav-Rai.pdf"
                         target="_blank"
                         rel="noreferrer"
                         className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl text-white bg-primary hover:bg-primary-hover font-display font-bold text-sm tracking-wide uppercase transition-all duration-300 shadow-lg shadow-primary/20 hover:shadow-primary/30 hover:-translate-y-0.5 active:translate-y-0"
