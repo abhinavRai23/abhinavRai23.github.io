@@ -5,7 +5,7 @@
     "phone_number": "8743960158",
     "email_id": "abhinav.rai1994@gmail.com",
     "address": "Bengaluru, India",
-    "about": "Senior Full-Stack Engineer with 9 years of experience specializing in high-performance frontend systems (80%) paired with resilient backend service delivery (20%). Deep expertise designing scalable React and Next.js architectures, micro-frontends, and architecting Node.js BFF (Backend-for-Frontend) layers backed by Redis, PostgreSQL, MongoDB, and MySQL. Proven track record owning global checkout, pricing platforms, and multi-gateway payment integrations. Advanced practitioner of agentic AI-assisted engineering workflows (Claude Code, Cursor) to radically accelerate delivery lifecycles, automate test coverage, and elevate code hygiene. Open to international relocation and remote contracts.",
+    "about": "Senior Full-Stack Engineer with 9 years of experience specializing in high-performance frontend systems (70%) paired with resilient backend service delivery (30%). Deep expertise designing scalable React and Next.js architectures, micro-frontends, and architecting Node.js BFF (Backend-for-Frontend) layers backed by Redis, PostgreSQL, MongoDB, and MySQL. Proven track record owning global checkout, pricing platforms, and multi-gateway payment integrations. Advanced practitioner of agentic AI-assisted engineering workflows (Claude Code, Cursor) to radically accelerate delivery lifecycles, automate test coverage, and elevate code hygiene. Open to international relocation and remote contracts.",
     "socials": {
       "github": "https://github.com/abhinavRai23",
       "x": "https://twitter.com/abhinav_rai1994",
@@ -140,66 +140,206 @@
       {
         "name": "Frontend Architecture (Primary)",
         "items": [
-          { "name": "React", "level": "Expert", "years": 9 },
-          { "name": "Next.js", "level": "Advanced", "years": 3 },
-          { "name": "TypeScript", "level": "Advanced", "years": 5 },
-          { "name": "JavaScript (ES6+)", "level": "Expert", "years": 9 },
-          { "name": "Redux", "level": "Advanced", "years": 7 },
-          { "name": "Zustand", "level": "Advanced", "years": 2 },
-          { "name": "HTML5 & CSS3", "level": "Expert", "years": 9 },
-          { "name": "SASS / LESS", "level": "Advanced", "years": 8 },
-          { "name": "MaterializeCSS", "level": "Advanced", "years": 3 }
+          {
+            "name": "React",
+            "level": "Expert",
+            "years": 9
+          },
+          {
+            "name": "Next.js",
+            "level": "Advanced",
+            "years": 3
+          },
+          {
+            "name": "TypeScript",
+            "level": "Advanced",
+            "years": 5
+          },
+          {
+            "name": "JavaScript (ES6+)",
+            "level": "Expert",
+            "years": 9
+          },
+          {
+            "name": "Redux",
+            "level": "Advanced",
+            "years": 7
+          },
+          {
+            "name": "Zustand",
+            "level": "Advanced",
+            "years": 2
+          },
+          {
+            "name": "HTML5 & CSS3",
+            "level": "Expert",
+            "years": 9
+          },
+          {
+            "name": "SASS / LESS",
+            "level": "Advanced",
+            "years": 8
+          },
+          {
+            "name": "MaterializeCSS",
+            "level": "Advanced",
+            "years": 3
+          }
         ]
       },
       {
         "name": "Backend & BFF Layer",
         "items": [
-          { "name": "Node.js", "level": "Advanced", "years": 7 },
-          { "name": "Express", "level": "Advanced", "years": 6 },
-          { "name": "RESTful APIs", "level": "Expert", "years": 9 },
-          { "name": "Microservices", "level": "Advanced", "years": 5 },
-          { "name": "Middleware Routing", "level": "Advanced", "years": 6 }
+          {
+            "name": "Node.js",
+            "level": "Advanced",
+            "years": 7
+          },
+          {
+            "name": "Express",
+            "level": "Advanced",
+            "years": 6
+          },
+          {
+            "name": "RESTful APIs",
+            "level": "Expert",
+            "years": 9
+          },
+          {
+            "name": "Microservices",
+            "level": "Advanced",
+            "years": 5
+          },
+          {
+            "name": "Middleware Routing",
+            "level": "Advanced",
+            "years": 6
+          }
         ]
       },
       {
         "name": "Databases & Caching",
         "items": [
-          { "name": "PostgreSQL", "level": "Advanced", "years": 5 },
-          { "name": "MongoDB", "level": "Advanced", "years": 7 },
-          { "name": "MySQL", "level": "Advanced", "years": 6 },
-          { "name": "Redis (In-memory caching)", "level": "Advanced", "years": 4 },
-          { "name": "LocalStorage Caching", "level": "Expert", "years": 8 }
+          {
+            "name": "PostgreSQL",
+            "level": "Advanced",
+            "years": 5
+          },
+          {
+            "name": "MongoDB",
+            "level": "Advanced",
+            "years": 7
+          },
+          {
+            "name": "MySQL",
+            "level": "Advanced",
+            "years": 6
+          },
+          {
+            "name": "Redis (In-memory caching)",
+            "level": "Advanced",
+            "years": 4
+          },
+          {
+            "name": "LocalStorage Caching",
+            "level": "Expert",
+            "years": 8
+          }
         ]
       },
       {
         "name": "Platform & Performance",
         "items": [
-          { "name": "Micro-Frontends (Module Fed.)", "level": "Advanced", "years": 5 },
-          { "name": "Webpack", "level": "Advanced", "years": 6 },
-          { "name": "Vite", "level": "Advanced", "years": 3 },
-          { "name": "Lighthouse (Core Web Vitals)", "level": "Expert", "years": 5 },
-          { "name": "Bundle Splitting", "level": "Expert", "years": 6 },
-          { "name": "CI/CD Pipelines", "level": "Advanced", "years": 5 }
+          {
+            "name": "Micro-Frontends (Module Fed.)",
+            "level": "Advanced",
+            "years": 5
+          },
+          {
+            "name": "Webpack",
+            "level": "Advanced",
+            "years": 6
+          },
+          {
+            "name": "Vite",
+            "level": "Advanced",
+            "years": 3
+          },
+          {
+            "name": "Lighthouse (Core Web Vitals)",
+            "level": "Expert",
+            "years": 5
+          },
+          {
+            "name": "Bundle Splitting",
+            "level": "Expert",
+            "years": 6
+          },
+          {
+            "name": "CI/CD Pipelines",
+            "level": "Advanced",
+            "years": 5
+          }
         ]
       },
       {
         "name": "Testing & Observability",
         "items": [
-          { "name": "Jest", "level": "Advanced", "years": 6 },
-          { "name": "React Testing Library", "level": "Advanced", "years": 6 },
-          { "name": "SonarCloud", "level": "Advanced", "years": 5 },
-          { "name": "Elastic APM", "level": "Intermediate", "years": 4 },
-          { "name": "Automated Regression Suites", "level": "Advanced", "years": 5 }
+          {
+            "name": "Jest",
+            "level": "Advanced",
+            "years": 6
+          },
+          {
+            "name": "React Testing Library",
+            "level": "Advanced",
+            "years": 6
+          },
+          {
+            "name": "SonarCloud",
+            "level": "Advanced",
+            "years": 5
+          },
+          {
+            "name": "Elastic APM",
+            "level": "Intermediate",
+            "years": 4
+          },
+          {
+            "name": "Automated Regression Suites",
+            "level": "Advanced",
+            "years": 5
+          }
         ]
       },
       {
         "name": "AI-Assisted Engineering",
         "items": [
-          { "name": "Claude Code", "level": "Expert", "years": 1 },
-          { "name": "Cursor IDE", "level": "Expert", "years": 2 },
-          { "name": "Agentic Workflows", "level": "Expert", "years": 1 },
-          { "name": "LLM Refactoring", "level": "Expert", "years": 2 },
-          { "name": "Automated Test Generation", "level": "Expert", "years": 2 }
+          {
+            "name": "Claude Code",
+            "level": "Expert",
+            "years": 1
+          },
+          {
+            "name": "Cursor IDE",
+            "level": "Expert",
+            "years": 2
+          },
+          {
+            "name": "Agentic Workflows",
+            "level": "Expert",
+            "years": 1
+          },
+          {
+            "name": "LLM Refactoring",
+            "level": "Expert",
+            "years": 2
+          },
+          {
+            "name": "Automated Test Generation",
+            "level": "Expert",
+            "years": 2
+          }
         ]
       }
     ],
