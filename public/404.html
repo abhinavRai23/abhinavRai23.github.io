@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Redirecting to Abhinav Rai's CV</title>
+    <meta http-equiv="refresh" content="0; url=/Abhinav-Rai.pdf" />
+    <script>
+        (function () {
+            var rawPath = window.location.pathname;
+            var decoded = decodeURIComponent(rawPath).toLowerCase();
+            // If the visitor requested the old CV link or any variation containing frontend, cv, resume
+            if (
+                decoded.indexOf('frontend') !== -1 ||
+                decoded.indexOf('cv') !== -1 ||
+                decoded.indexOf('resume') !== -1 ||
+                decoded.indexOf('abhinav-rai') !== -1
+            ) {
+                window.location.replace('/Abhinav-Rai.pdf');
+            } else {
+                window.location.replace('/');
+            }
+        })();
+    </script>
+</head>
+
+<body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; background-color: #0f172a; color: #f8fafc;">
+    <div style="text-align: center; padding: 24px;">
+        <h2 style="margin-bottom: 8px;">Redirecting...</h2>
+        <p style="color: #94a3b8; font-size: 14px;">If you are not redirected automatically, <a href="/Abhinav-Rai.pdf" style="color: #38bdf8; text-decoration: underline;">click here to open the updated CV</a>.</p>
+    </div>
+</body>
+
+</html>
+
