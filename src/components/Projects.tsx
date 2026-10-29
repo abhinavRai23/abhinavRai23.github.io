@@ -3,7 +3,7 @@ import { createPortal } from 'react-dom';
 import {
     ExternalLink, Sprout, CreditCard, MailCheck, Boxes,
     Globe, Users, FileEdit, PenTool, HeartHandshake, BookOpen, Laptop, FolderGit2, Github, X,
-    BarChart3, CheckSquare
+    BarChart3, CheckSquare, TrendingUp
 } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 
@@ -31,6 +31,7 @@ const GRADIENTS = [
 ];
 
 const PROJECT_ICON_RULES: Array<{ keywords: string[]; icon: LucideIcon }> = [
+    { keywords: ['investment', 'analyser', 'portfolio'], icon: TrendingUp },
     { keywords: ['streamhub', 'report'], icon: BarChart3 },
     { keywords: ['todo', 'notes'], icon: CheckSquare },
     { keywords: ['henrise', 'agro', 'farm'], icon: Sprout },

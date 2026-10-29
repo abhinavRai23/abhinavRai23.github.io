@@ -354,6 +354,24 @@
   },
   "projects": [
     {
+      "title": "Investment Analyser",
+      "period": "October 2026",
+      "description": "Multi-asset portfolio intelligence and analytics platform for Indian investors. Tracks, analyzes, and optimizes family wealth across Mutual Funds, Direct Stocks, Gold/Silver ETFs, SGBs, Fixed Deposits, PPF, and NPS. Features client-side Groww statement parsing, stock-level mutual fund overlap matrix computation, interactive demo mode, and 100% private in-browser local storage persistence.",
+      "link": "https://investment-analyser-seven.vercel.app/",
+      "github": "https://github.com/abhinavRai23/InvestmentAnalyser",
+      "image": "/images/projects/investment-analyser.jpg",
+      "skills": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Zustand",
+        "Recharts",
+        "Shadcn UI",
+        "SheetJS",
+        "Financial Analytics"
+      ]
+    },
+    {
       "title": "StreamHub Report Builder",
       "period": "October 2026",
       "description": "High-performance analytics report builder built with React 18, TypeScript, Zustand, TanStack Query, Tailwind CSS, and Highcharts. Features client-side group reduction with a Simpson's-Paradox-safe ratio-metric aggregation engine (bounce rate), dynamic dual Y-axis visualization, context-aware multi-filter AND logic, debounced bidirectional URL state synchronization, and sortable tabular dataset inspection.",
