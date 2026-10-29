@@ -7,7 +7,7 @@
     "scripts": {
         "start": "vite",
         "dev": "vite",
-        "predeploy": "npm run build",
+        "predeploy": "pnpm run build",
         "deploy": "gh-pages -d dist",
         "build": "tsc && vite build",
         "preview": "vite preview"
@@ -15,6 +15,7 @@
     "homepage": "https://abhinavrai23.github.io/",
     "author": "",
     "license": "ISC",
+    "packageManager": "pnpm@12.11.2",
     "dependencies": {
         "lucide-react": "^0.344.0",
         "react": "^18.2.0",

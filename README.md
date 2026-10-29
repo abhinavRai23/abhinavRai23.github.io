@@ -24,13 +24,13 @@ To publish your own **React-app**, follow these steps:-
 * create a script for production build, like
 
 	> ``` build: webpack --progress --profile ```
-* install `gh-pages` npm package and add two commands in your `package.json`
+* install `gh-pages` package and add two commands in your `package.json`
 
-   * `"predeploy": "npm run build"`
+   * `"predeploy": "pnpm run build"`
 
    * `"deploy": "NODE_DEBUG=gh-pages gh-pages -d dist"`
 
-* To publish run `npm run deploy` command. It will create a new git branch that contains only the final build code.
+* To publish run `pnpm run deploy` command. It will create a new git branch that contains only the final build code.
 * Now go to your repo's GitHub
 	> `settings => Github Pages => Source branch => gh-pages`
 
